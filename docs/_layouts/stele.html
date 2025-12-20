@@ -46,5 +46,34 @@
 
   </div>
 
+  <script>
+    // Add copy buttons to all code blocks
+    document.querySelectorAll('pre').forEach(function(pre) {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'code-block-wrapper';
+      pre.parentNode.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+
+      const button = document.createElement('button');
+      button.className = 'copy-button';
+      button.innerHTML = '&#x133CF;'; // Egyptian hieroglyph - looks like a document
+      button.title = 'Copy to clipboard';
+
+      button.addEventListener('click', function() {
+        const code = pre.querySelector('code') || pre;
+        navigator.clipboard.writeText(code.textContent).then(function() {
+          button.innerHTML = '&#x2713;'; // Checkmark
+          button.classList.add('copied');
+          setTimeout(function() {
+            button.innerHTML = '&#x133CF;';
+            button.classList.remove('copied');
+          }, 2000);
+        });
+      });
+
+      wrapper.appendChild(button);
+    });
+  </script>
+
 </body>
 </html>

@@ -176,3 +176,41 @@ details {
     border-bottom: 1px solid rgba($stone-border, 0.5);
   }
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Copy Button - Code block clipboard action
+// ─────────────────────────────────────────────────────────────────────────────
+
+.code-block-wrapper {
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: $spacing-sm;
+  right: $spacing-sm;
+  padding: $spacing-xs $spacing-sm;
+  background: rgba($stone-shadow, 0.8);
+  border: 1px solid rgba($glow-primary, 0.3);
+  border-radius: 3px;
+  color: $glow-primary;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+    background: rgba($stone-shadow, 0.95);
+    box-shadow: 0 0 10px rgba($glow-primary, 0.3);
+    text-shadow: 0 0 4px rgba($glow-primary, 0.5);
+  }
+
+  &.copied {
+    color: $glow-gold;
+    border-color: rgba($glow-gold, 0.5);
+    box-shadow: 0 0 10px rgba($glow-gold, 0.3);
+    text-shadow: 0 0 4px rgba($glow-gold, 0.5);
+    opacity: 1;
+  }
+}
