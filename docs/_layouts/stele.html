@@ -47,32 +47,49 @@
   </div>
 
   <script>
-    // Add copy buttons to all code blocks
-    document.querySelectorAll('pre').forEach(function(pre) {
+    // Add copy buttons to code blocks and readout boxes
+    function addCopyButton(element) {
+      // Skip if already wrapped
+      if (element.parentNode.classList.contains('code-block-wrapper')) return;
+
       const wrapper = document.createElement('div');
       wrapper.className = 'code-block-wrapper';
-      pre.parentNode.insertBefore(wrapper, pre);
-      wrapper.appendChild(pre);
+      element.parentNode.insertBefore(wrapper, element);
+      wrapper.appendChild(element);
 
       const button = document.createElement('button');
       button.className = 'copy-button';
-      button.innerHTML = '&#x133CF;'; // Egyptian hieroglyph - looks like a document
+      button.innerHTML = '&#x29C9;'; // Two joined squares - classic copy icon
       button.title = 'Copy to clipboard';
 
       button.addEventListener('click', function() {
-        const code = pre.querySelector('code') || pre;
-        navigator.clipboard.writeText(code.textContent).then(function() {
+        // For readouts, skip the label text
+        let text;
+        if (element.classList.contains('readout')) {
+          const label = element.querySelector('.readout-label');
+          const clone = element.cloneNode(true);
+          if (label) clone.querySelector('.readout-label').remove();
+          text = clone.textContent.trim();
+        } else {
+          const code = element.querySelector('code') || element;
+          text = code.textContent;
+        }
+
+        navigator.clipboard.writeText(text).then(function() {
           button.innerHTML = '&#x2713;'; // Checkmark
           button.classList.add('copied');
           setTimeout(function() {
-            button.innerHTML = '&#x133CF;';
+            button.innerHTML = '&#x29C9;';
             button.classList.remove('copied');
           }, 2000);
         });
       });
 
       wrapper.appendChild(button);
-    });
+    }
+
+    document.querySelectorAll('pre').forEach(addCopyButton);
+    document.querySelectorAll('.readout').forEach(addCopyButton);
   </script>
 
 </body>
