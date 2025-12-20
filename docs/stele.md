@@ -1,6 +1,7 @@
 ---
 layout: stele
 title: stele
+permalink: /spec/
 ---
 
 <div class="doc-header">

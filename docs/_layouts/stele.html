@@ -25,7 +25,7 @@
     <!-- Navigation -->
     <nav class="glyphs-nav">
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
-      <a href="{{ '/stele' | relative_url }}" {% if page.url contains 'stele.html' or page.title == 'stele' %}class="active"{% endif %}>Spec</a>
+      <a href="{{ '/spec' | relative_url }}" {% if page.url == '/spec/' or page.title == 'stele' %}class="active"{% endif %}>Spec</a>
       <a href="https://github.com/coryzibell/base-d" target="_blank">GitHub</a>
     </nav>
 

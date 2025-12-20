@@ -66,7 +66,7 @@ stele parses at parity with JSON while being smaller. Smaller models handle it c
 
 ## Read the Full Specification
 
-<a href="{{ '/stele' | relative_url }}" style="display: inline-block; font-family: 'Cinzel', serif; font-size: 1.25rem; letter-spacing: 0.15em; padding: 1rem 2rem; border: 2px solid #4ECDC4; color: #4ECDC4; text-decoration: none; transition: all 0.3s ease;">
+<a href="{{ '/spec' | relative_url }}" style="display: inline-block; font-family: 'Cinzel', serif; font-size: 1.25rem; letter-spacing: 0.15em; padding: 1rem 2rem; border: 2px solid #4ECDC4; color: #4ECDC4; text-decoration: none; transition: all 0.3s ease;">
 &#x1339D; ENTER THE TABLETS &#x1339E;
 </a>
 
