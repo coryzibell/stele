@@ -42,20 +42,27 @@ h2 {
   margin-top: $spacing-3xl;
   padding-bottom: $spacing-sm;
   border-bottom: 1px solid $stone-border;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 
   // Chevron decorators
   &::before {
-    content: "\25C7\2500\2500\2500 ";
+    content: "\25C7\2500\2500\2500";
     color: $glow-gold;
     font-size: 0.7em;
     opacity: 0.7;
+    flex-shrink: 0;
   }
 
   &::after {
-    content: " \2500\2500\2500\25C7";
+    content: "\2500\2500\2500\25C7";
     color: $glow-gold;
     font-size: 0.7em;
     opacity: 0.7;
+    flex-shrink: 0;
   }
 }
 
