@@ -1,0 +1,14 @@
+title: STELE
+description: Structured Tablets for LLM Encoding
+baseurl: /stele
+url: https://coryzibell.github.io
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: stele

@@ -1,0 +1,63 @@
+// ═══════════════════════════════════════════════════════════════════════════
+//  STELE Design Tokens
+//  Archaeological + Stargate Aesthetic
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Stone Palette
+// ─────────────────────────────────────────────────────────────────────────────
+
+$stone-deep: #2A2520;           // Deep Sandstone - background
+$stone-text: #D4C4A8;           // Warm Limestone - body text
+$stone-highlight: #E8DCC4;      // Aged Papyrus - highlights
+$stone-shadow: #1A1815;         // Shadow Obsidian - deep shadows
+$stone-border: #8B7355;         // Dust Ochre - borders/dividers
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Stargate Glow
+// ─────────────────────────────────────────────────────────────────────────────
+
+$glow-primary: #4ECDC4;         // Naquadah Blue - links, active elements
+$glow-gold: #C9A227;            // Chevron Gold - important elements
+$glow-amber: #E87A00;           // Cartouche Amber - code/syntax
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Typography
+// ─────────────────────────────────────────────────────────────────────────────
+
+$font-display: 'Cinzel', serif;           // Headers - inscribed feel
+$font-body: 'Crimson Pro', serif;         // Body - scholarly
+$font-mono: 'JetBrains Mono', monospace;  // Code - glowing tech
+
+// Sizing
+$font-size-base: 1.1rem;
+$font-size-sm: 0.9rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-2xl: 2rem;
+$font-size-3xl: 2.5rem;
+
+// Letter spacing
+$letter-spacing-wide: 0.15em;
+$letter-spacing-wider: 0.25em;
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Spacing
+// ─────────────────────────────────────────────────────────────────────────────
+
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Layout
+// ─────────────────────────────────────────────────────────────────────────────
+
+$content-width: 52rem;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;

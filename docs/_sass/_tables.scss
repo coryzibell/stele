@@ -1,0 +1,57 @@
+// ═══════════════════════════════════════════════════════════════════════════
+//  Tables
+//  Stone tablet data grids
+// ═══════════════════════════════════════════════════════════════════════════
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $spacing-lg 0;
+  font-size: $font-size-sm;
+}
+
+thead {
+  th {
+    font-family: $font-display;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $glow-gold;
+    text-align: left;
+    padding: $spacing-sm $spacing-md;
+    border-bottom: 2px solid $stone-border;
+    background: rgba($stone-shadow, 0.3);
+  }
+}
+
+tbody {
+  tr {
+    border-bottom: 1px solid rgba($stone-border, 0.4);
+
+    &:hover {
+      background: rgba($glow-primary, 0.03);
+    }
+  }
+
+  td {
+    padding: $spacing-sm $spacing-md;
+    vertical-align: top;
+
+    // Code in tables
+    code {
+      font-size: 0.85em;
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Compact Tables
+// ─────────────────────────────────────────────────────────────────────────────
+
+.table-compact {
+  font-size: $font-size-sm;
+
+  th, td {
+    padding: $spacing-xs $spacing-sm;
+  }
+}

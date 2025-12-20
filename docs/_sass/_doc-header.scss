@@ -1,0 +1,108 @@
+// ═══════════════════════════════════════════════════════════════════════════
+//  Document Header
+//  Technical document styling with classification stamps
+// ═══════════════════════════════════════════════════════════════════════════
+
+.doc-header {
+  text-align: center;
+  padding: $spacing-2xl 0;
+  margin-bottom: $spacing-xl;
+  border-bottom: 2px solid $stone-border;
+
+  .classification {
+    display: inline-block;
+    font-family: $font-mono;
+    font-size: $font-size-sm;
+    letter-spacing: $letter-spacing-wider;
+    color: $glow-primary;
+    padding: $spacing-xs $spacing-md;
+    border: 1px solid rgba($glow-primary, 0.4);
+    border-radius: 2px;
+    margin-bottom: $spacing-lg;
+    text-shadow: 0 0 4px rgba($glow-primary, 0.3);
+    box-shadow: 0 0 10px rgba($glow-primary, 0.1);
+  }
+
+  h1 {
+    font-family: $font-display;
+    font-size: $font-size-3xl;
+    letter-spacing: 0.3em;
+    text-transform: lowercase;
+    margin: $spacing-md 0;
+    color: $stone-highlight;
+
+    @media (max-width: $breakpoint-sm) {
+      font-size: $font-size-2xl;
+      letter-spacing: 0.15em;
+    }
+  }
+
+  .subtitle {
+    font-family: $font-body;
+    font-size: $font-size-lg;
+    font-style: italic;
+    color: $stone-text;
+    margin-bottom: $spacing-lg;
+  }
+
+  .doc-meta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: $spacing-lg;
+    margin-top: $spacing-lg;
+
+    .meta-field {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .meta-label {
+        font-family: $font-display;
+        font-size: $font-size-sm;
+        letter-spacing: 0.1em;
+        color: $stone-border;
+        text-transform: uppercase;
+      }
+
+      .meta-value {
+        font-family: $font-mono;
+        font-size: $font-size-sm;
+        color: $stone-highlight;
+      }
+    }
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Status Stamps
+// ─────────────────────────────────────────────────────────────────────────────
+
+.stamp {
+  display: inline-block;
+  font-family: $font-display;
+  font-size: $font-size-sm;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 0.1em 0.5em;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.stamp-go {
+  color: $glow-primary;
+  border: 1px solid rgba($glow-primary, 0.5);
+  text-shadow: 0 0 4px rgba($glow-primary, 0.3);
+}
+
+.stamp-caution {
+  color: $glow-gold;
+  border: 1px solid rgba($glow-gold, 0.5);
+  text-shadow: 0 0 4px rgba($glow-gold, 0.3);
+}
+
+.stamp-warning {
+  color: $glow-amber;
+  border: 1px solid rgba($glow-amber, 0.5);
+  text-shadow: 0 0 4px rgba($glow-amber, 0.3);
+}

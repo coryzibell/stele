@@ -1,0 +1,181 @@
+// ═══════════════════════════════════════════════════════════════════════════
+//  Typography
+//  Scholarly serifs + inscribed headers
+// ═══════════════════════════════════════════════════════════════════════════
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+  font-family: $font-body;
+  font-size: $font-size-base;
+  line-height: 1.7;
+  color: $stone-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Headers - Inscribed stone feel
+// ─────────────────────────────────────────────────────────────────────────────
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-display;
+  font-weight: 500;
+  letter-spacing: $letter-spacing-wide;
+  color: $stone-highlight;
+  margin-top: $spacing-2xl;
+  margin-bottom: $spacing-md;
+}
+
+h1 {
+  font-size: $font-size-3xl;
+  letter-spacing: $letter-spacing-wider;
+  text-transform: uppercase;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $font-size-2xl;
+  }
+}
+
+h2 {
+  font-size: $font-size-2xl;
+  margin-top: $spacing-3xl;
+  padding-bottom: $spacing-sm;
+  border-bottom: 1px solid $stone-border;
+
+  // Chevron decorators
+  &::before {
+    content: "\25C7\2500\2500\2500 ";
+    color: $glow-gold;
+    font-size: 0.7em;
+    opacity: 0.7;
+  }
+
+  &::after {
+    content: " \2500\2500\2500\25C7";
+    color: $glow-gold;
+    font-size: 0.7em;
+    opacity: 0.7;
+  }
+}
+
+h3 {
+  font-size: $font-size-xl;
+  color: $glow-gold;
+}
+
+h4 {
+  font-size: $font-size-lg;
+  color: $stone-text;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Body Text
+// ─────────────────────────────────────────────────────────────────────────────
+
+p {
+  margin-bottom: $spacing-md;
+}
+
+strong {
+  color: $stone-highlight;
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  color: $stone-highlight;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Links - Naquadah glow
+// ─────────────────────────────────────────────────────────────────────────────
+
+a {
+  color: $glow-primary;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: lighten($glow-primary, 15%);
+    text-shadow: 0 0 8px rgba($glow-primary, 0.5);
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Lists
+// ─────────────────────────────────────────────────────────────────────────────
+
+ul, ol {
+  margin-bottom: $spacing-md;
+  padding-left: $spacing-xl;
+}
+
+li {
+  margin-bottom: $spacing-xs;
+
+  &::marker {
+    color: $glow-gold;
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Blockquotes - Ancient wisdom
+// ─────────────────────────────────────────────────────────────────────────────
+
+blockquote {
+  margin: $spacing-xl 0;
+  padding: $spacing-md $spacing-lg;
+  border-left: 3px solid $glow-gold;
+  background: rgba($stone-shadow, 0.5);
+  font-style: italic;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Inline Code
+// ─────────────────────────────────────────────────────────────────────────────
+
+code:not(pre code) {
+  font-family: $font-mono;
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  background: rgba($stone-shadow, 0.8);
+  border: 1px solid $stone-border;
+  border-radius: 3px;
+  color: $glow-amber;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+//  Horizontal Rules - Chevron dividers
+// ─────────────────────────────────────────────────────────────────────────────
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    $stone-border 20%,
+    $stone-border 80%,
+    transparent
+  );
+  margin: $spacing-2xl 0;
+  position: relative;
+
+  &::before {
+    content: "\25C7\2500\2500\2500\25C7\2500\2500\2500\25C7";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: $stone-deep;
+    padding: 0 $spacing-md;
+    color: $glow-gold;
+    font-size: $font-size-sm;
+    letter-spacing: 0.3em;
+  }
+}

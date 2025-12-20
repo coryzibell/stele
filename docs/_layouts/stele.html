@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x133BD;</text></svg>">
+</head>
+<body>
+
+  <div class="stele-container">
+
+    <!-- Cartouche Header -->
+    <header class="cartouche-header">
+      <div class="title-cartouche">
+        <span class="glyph">&#x1339D;</span>
+        <h1>STELE</h1>
+        <span class="glyph">&#x1339E;</span>
+      </div>
+      <p class="subtitle">Structured Tablets for LLM Encoding</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="glyphs-nav">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/stele' | relative_url }}" {% if page.url contains 'stele.html' or page.title == 'stele' %}class="active"{% endif %}>Spec</a>
+      <a href="https://github.com/coryzibell/base-d" target="_blank">GitHub</a>
+    </nav>
+
+    <!-- Main Content - Stone Tablet -->
+    <main class="stone-tablet">
+      {{ content }}
+    </main>
+
+    <!-- Stargate Footer -->
+    <footer class="stargate-footer">
+      <div class="chevrons">&#x25C7; &#x25C7; &#x25C7; &#x25C7; &#x25C7; &#x25C7; &#x25C7;</div>
+      <p class="footer-text">Ancient Protocols for Modern Minds</p>
+      <div class="footer-links">
+        <a href="https://github.com/coryzibell/base-d">base-d</a>
+        <a href="https://github.com/coryzibell/stele">stele</a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
