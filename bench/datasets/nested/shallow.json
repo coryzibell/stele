@@ -1,0 +1,36 @@
+{
+  "organization": {
+    "name": "TechCorp Industries",
+    "founded": 2010,
+    "departments": [
+      {
+        "id": "eng",
+        "name": "Engineering",
+        "budget": 5000000,
+        "head": "Alice Chen",
+        "employee_count": 120
+      },
+      {
+        "id": "sales",
+        "name": "Sales",
+        "budget": 3000000,
+        "head": "Bob Martinez",
+        "employee_count": 80
+      },
+      {
+        "id": "hr",
+        "name": "Human Resources",
+        "budget": 1500000,
+        "head": "Carol Johnson",
+        "employee_count": 25
+      },
+      {
+        "id": "marketing",
+        "name": "Marketing",
+        "budget": 2500000,
+        "head": "David Park",
+        "employee_count": 45
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "organization": {
+    "name": "TechCorp Industries",
+    "founded": 2010,
+    "headquarters": "San Francisco, CA",
+    "departments": [
+      {
+        "id": "eng",
+        "name": "Engineering",
+        "budget": 5000000,
+        "head": "Alice Chen",
+        "teams": [
+          {
+            "id": "backend",
+            "name": "Backend Engineering",
+            "lead": "Frank Wilson",
+            "members": [
+              {
+                "id": 1001,
+                "name": "Sarah Connor",
+                "role": "Senior Engineer",
+                "years_experience": 8,
+                "skills": [
+                  {"name": "rust", "proficiency": "expert", "years": 5},
+                  {"name": "postgresql", "proficiency": "advanced", "years": 8},
+                  {"name": "docker", "proficiency": "intermediate", "years": 4}
+                ]
+              },
+              {
+                "id": 1002,
+                "name": "John Reese",
+                "role": "Staff Engineer",
+                "years_experience": 12,
+                "skills": [
+                  {"name": "python", "proficiency": "expert", "years": 12},
+                  {"name": "rust", "proficiency": "advanced", "years": 3},
+                  {"name": "kubernetes", "proficiency": "expert", "years": 6}
+                ]
+              },
+              {
+                "id": 1003,
+                "name": "Maya Lopez",
+                "role": "Engineer",
+                "years_experience": 3,
+                "skills": [
+                  {"name": "rust", "proficiency": "intermediate", "years": 2},
+                  {"name": "postgresql", "proficiency": "intermediate", "years": 3},
+                  {"name": "redis", "proficiency": "beginner", "years": 1}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frontend",
+            "name": "Frontend Engineering",
+            "lead": "Grace Kim",
+            "members": [
+              {
+                "id": 2001,
+                "name": "Alex Turner",
+                "role": "Senior Engineer",
+                "years_experience": 7,
+                "skills": [
+                  {"name": "typescript", "proficiency": "expert", "years": 7},
+                  {"name": "react", "proficiency": "expert", "years": 6},
+                  {"name": "css", "proficiency": "advanced", "years": 7}
+                ]
+              },
+              {
+                "id": 2002,
+                "name": "Jamie Chen",
+                "role": "Engineer",
+                "years_experience": 4,
+                "skills": [
+                  {"name": "typescript", "proficiency": "advanced", "years": 4},
+                  {"name": "react", "proficiency": "advanced", "years": 4},
+                  {"name": "tailwind", "proficiency": "expert", "years": 3}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sales",
+        "name": "Sales",
+        "budget": 3000000,
+        "head": "Bob Martinez",
+        "teams": [
+          {
+            "id": "enterprise",
+            "name": "Enterprise Sales",
+            "lead": "Iris Thompson",
+            "members": [
+              {
+                "id": 3001,
+                "name": "Marcus Stone",
+                "role": "Account Executive",
+                "years_experience": 6,
+                "skills": [
+                  {"name": "enterprise_sales", "proficiency": "expert", "years": 6},
+                  {"name": "crm", "proficiency": "advanced", "years": 5},
+                  {"name": "negotiation", "proficiency": "expert", "years": 6}
+                ]
+              },
+              {
+                "id": 3002,
+                "name": "Nina Patel",
+                "role": "Sales Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {"name": "technical_demos", "proficiency": "expert", "years": 5},
+                  {"name": "solution_architecture", "proficiency": "advanced", "years": 4},
+                  {"name": "python", "proficiency": "intermediate", "years": 3}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

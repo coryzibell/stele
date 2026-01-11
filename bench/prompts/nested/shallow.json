@@ -1,0 +1,15 @@
+{
+  "dataset": "nested/shallow.json",
+  "questions": [
+    {"q": "What is the name of the organization?", "a": "TechCorp Industries"},
+    {"q": "How many departments are there?", "a": "4"},
+    {"q": "What is the budget of the Engineering department?", "a": "5000000"},
+    {"q": "Who is the head of the Sales department?", "a": "Bob Martinez"},
+    {"q": "How many employees are in the HR department?", "a": "25"},
+    {"q": "What is the total budget across all departments?", "a": "12000000"},
+    {"q": "Which department has the most employees?", "a": "Engineering"},
+    {"q": "What is the id of the Marketing department?", "a": "marketing"},
+    {"q": "Who heads the department with id 'hr'?", "a": "Carol Johnson"},
+    {"q": "How many total employees are there across all departments?", "a": "270"}
+  ]
+}

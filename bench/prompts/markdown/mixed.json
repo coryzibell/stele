@@ -1,0 +1,15 @@
+{
+  "dataset": "markdown/mixed.md",
+  "questions": [
+    {"q": "What are the two authentication methods supported?", "a": "OAuth 2.0 and API Keys"},
+    {"q": "Which authentication method is recommended for web applications?", "a": "OAuth 2.0"},
+    {"q": "What HTTP method is used to create a new user?", "a": "POST"},
+    {"q": "What is the endpoint for getting user details?", "a": "/v1/users/:id"},
+    {"q": "How many requests per hour does the Free plan allow?", "a": "100"},
+    {"q": "What HTTP status code indicates rate limit exceeded?", "a": "429"},
+    {"q": "What does status code 201 indicate?", "a": "Created"},
+    {"q": "What is the first step in configuring webhooks?", "a": "Register webhook URL in dashboard"},
+    {"q": "What event type is shown in the webhook payload example?", "a": "user.created"},
+    {"q": "What is one of the best practices mentioned for integration?", "a": "Cache responses when possible, Implement exponential backoff for retries, Use compression for large payloads, Monitor your rate limit usage, Handle errors gracefully, or Keep API keys secure"}
+  ]
+}

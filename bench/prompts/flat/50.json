@@ -1,0 +1,15 @@
+{
+  "dataset": "flat/50.json",
+  "questions": [
+    {"q": "How many users are there in total?", "a": "50"},
+    {"q": "How many users have the role 'admin'?", "a": "11"},
+    {"q": "How many users have the role 'moderator'?", "a": "11"},
+    {"q": "How many users are active?", "a": "34"},
+    {"q": "How many users are inactive?", "a": "16"},
+    {"q": "What is the email of the user with id 25?", "a": "yara.hill@example.com"},
+    {"q": "What is the name of the user with id 43?", "a": "queenie_sanchez"},
+    {"q": "What role does user 'liam_parker' have?", "a": "admin"},
+    {"q": "Is the user with id 50 active?", "a": "false"},
+    {"q": "How many users with role 'user' are inactive?", "a": "13"}
+  ]
+}

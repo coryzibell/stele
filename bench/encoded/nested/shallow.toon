@@ -1,0 +1,8 @@
+organization:
+  name: TechCorp Industries
+  founded: 2010
+  departments[4]{id,name,budget,head,employee_count}:
+    eng,Engineering,5000000,Alice Chen,120
+    sales,Sales,3000000,Bob Martinez,80
+    hr,Human Resources,1500000,Carol Johnson,25
+    marketing,Marketing,2500000,David Park,45

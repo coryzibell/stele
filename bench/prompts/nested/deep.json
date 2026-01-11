@@ -1,0 +1,15 @@
+{
+  "dataset": "nested/deep.json",
+  "questions": [
+    {"q": "Where is the organization's headquarters?", "a": "San Francisco, CA"},
+    {"q": "How many members are listed in the Backend Engineering team?", "a": "3"},
+    {"q": "What is Sarah Connor's role?", "a": "Senior Engineer"},
+    {"q": "How many years of experience does John Reese have?", "a": "12"},
+    {"q": "What is Maya Lopez's proficiency level in rust?", "a": "intermediate"},
+    {"q": "How many skills does Alex Turner have?", "a": "3"},
+    {"q": "What is Jamie Chen's proficiency in tailwind?", "a": "expert"},
+    {"q": "Who is a Sales Engineer in the Enterprise Sales team?", "a": "Nina Patel"},
+    {"q": "How many years has Marcus Stone worked in enterprise sales?", "a": "6"},
+    {"q": "What skill does Nina Patel have at expert proficiency?", "a": "technical_demos"}
+  ]
+}

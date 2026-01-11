@@ -1,0 +1,15 @@
+{
+  "dataset": "markdown/tables.md",
+  "questions": [
+    {"q": "What is the price of the Starter plan?", "a": "$29/mo"},
+    {"q": "How many users are included in the Professional plan?", "a": "25"},
+    {"q": "What type of support does the Free plan include?", "a": "Community"},
+    {"q": "Does the Starter plan include SSO Integration?", "a": "No"},
+    {"q": "What is the SLA guarantee for the Professional plan?", "a": "99.5%"},
+    {"q": "What is the Professional plan price in Europe?", "a": "€99"},
+    {"q": "How many API calls per hour does the Professional plan allow?", "a": "10000"},
+    {"q": "What is the data import size limit for the Starter plan?", "a": "100MB"},
+    {"q": "What is the response time for Critical priority issues on Enterprise plan?", "a": "1 hr"},
+    {"q": "How many custom reports can Free plan users create?", "a": "1"}
+  ]
+}

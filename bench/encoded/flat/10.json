@@ -1,0 +1,14 @@
+{
+  "users": [
+    {"id": 1, "name": "alice_smith", "email": "alice.smith@example.com", "role": "admin", "active": true},
+    {"id": 2, "name": "bob_jones", "email": "bob.jones@example.com", "role": "user", "active": true},
+    {"id": 3, "name": "carol_white", "email": "carol.white@example.com", "role": "moderator", "active": true},
+    {"id": 4, "name": "dave_brown", "email": "dave.brown@example.com", "role": "user", "active": false},
+    {"id": 5, "name": "eve_davis", "email": "eve.davis@example.com", "role": "admin", "active": true},
+    {"id": 6, "name": "frank_miller", "email": "frank.miller@example.com", "role": "user", "active": true},
+    {"id": 7, "name": "grace_wilson", "email": "grace.wilson@example.com", "role": "moderator", "active": false},
+    {"id": 8, "name": "henry_moore", "email": "henry.moore@example.com", "role": "user", "active": true},
+    {"id": 9, "name": "iris_taylor", "email": "iris.taylor@example.com", "role": "admin", "active": true},
+    {"id": 10, "name": "jack_anderson", "email": "jack.anderson@example.com", "role": "user", "active": false}
+  ]
+}

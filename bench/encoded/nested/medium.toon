@@ -1,0 +1,54 @@
+organization:
+  name: TechCorp Industries
+  founded: 2010
+  departments[3]:
+    - id: eng
+      name: Engineering
+      budget: 5000000
+      head: Alice Chen
+      teams[3]:
+        - id: backend
+          name: Backend Engineering
+          lead: Frank Wilson
+          members: 35
+          tech_stack[3]: rust,python,postgresql
+        - id: frontend
+          name: Frontend Engineering
+          lead: Grace Kim
+          members: 28
+          tech_stack[3]: typescript,react,tailwind
+        - id: devops
+          name: DevOps
+          lead: Henry Rodriguez
+          members: 15
+          tech_stack[3]: kubernetes,terraform,aws
+    - id: sales
+      name: Sales
+      budget: 3000000
+      head: Bob Martinez
+      teams[2]:
+        - id: enterprise
+          name: Enterprise Sales
+          lead: Iris Thompson
+          members: 40
+          regions[2]: north_america,europe
+        - id: smb
+          name: SMB Sales
+          lead: Jack Brown
+          members: 30
+          regions[2]: north_america,apac
+    - id: marketing
+      name: Marketing
+      budget: 2500000
+      head: David Park
+      teams[2]:
+        - id: content
+          name: Content Marketing
+          lead: Kate Anderson
+          members: 20
+          channels[3]: blog,social,email
+        - id: growth
+          name: Growth Marketing
+          lead: Leo Davis
+          members: 15
+          channels[3]: paid_ads,seo,partnerships

@@ -1,0 +1,15 @@
+{
+  "dataset": "nested/medium.json",
+  "questions": [
+    {"q": "How many teams are in the Engineering department?", "a": "3"},
+    {"q": "Who leads the Backend Engineering team?", "a": "Frank Wilson"},
+    {"q": "How many members are in the Frontend Engineering team?", "a": "28"},
+    {"q": "What tech stack does the DevOps team use?", "a": "kubernetes, terraform, aws"},
+    {"q": "How many teams are in the Sales department?", "a": "2"},
+    {"q": "Which regions does the Enterprise Sales team cover?", "a": "north_america, europe"},
+    {"q": "Who leads the Content Marketing team?", "a": "Kate Anderson"},
+    {"q": "What channels does the Growth Marketing team use?", "a": "paid_ads, seo, partnerships"},
+    {"q": "What is the total number of teams across all departments?", "a": "7"},
+    {"q": "How many members are in the SMB Sales team?", "a": "30"}
+  ]
+}

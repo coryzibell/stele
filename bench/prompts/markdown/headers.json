@@ -1,0 +1,15 @@
+{
+  "dataset": "markdown/headers.md",
+  "questions": [
+    {"q": "What is the main topic of this document?", "a": "Product Documentation"},
+    {"q": "How long does the onboarding process typically take?", "a": "10-15 minutes"},
+    {"q": "What are the three main feature categories?", "a": "data management, analytics, and collaboration"},
+    {"q": "What operating systems are supported for installation?", "a": "Windows, macOS, and Linux"},
+    {"q": "What is the minimum RAM requirement?", "a": "4GB"},
+    {"q": "What export formats are supported?", "a": "CSV, JSON, Excel, or PDF"},
+    {"q": "What authentication methods does the API support?", "a": "OAuth 2.0 or API keys"},
+    {"q": "How many requests per hour does the standard tier allow?", "a": "1000"},
+    {"q": "What is the Enterprise tier rate limit?", "a": "unlimited"},
+    {"q": "Where should you check if you don't see the verification email?", "a": "spam folder"}
+  ]
+}
