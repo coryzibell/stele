@@ -1,0 +1,354 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "falcon_paw",
+      "email": "falcon.paw@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "hawk_claw",
+      "email": "hawk.claw@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "eagle_talon",
+      "email": "eagle.talon@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "osprey_hoof",
+      "email": "osprey.hoof@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "kite_horn",
+      "email": "kite.horn@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "harrier_antler",
+      "email": "harrier.antler@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "buzzard_tusk",
+      "email": "buzzard.tusk@animalnet.org",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "owl_fang",
+      "email": "owl.fang@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "raven_tooth",
+      "email": "raven.tooth@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "crow_beak",
+      "email": "crow.beak@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 11,
+      "name": "magpie_bill",
+      "email": "magpie.bill@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "jay_snout",
+      "email": "jay.snout@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 13,
+      "name": "finch_muzzle",
+      "email": "finch.muzzle@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 14,
+      "name": "sparrow_whisker",
+      "email": "sparrow.whisker@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 15,
+      "name": "wren_bristle",
+      "email": "wren.bristle@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 16,
+      "name": "robin_fur",
+      "email": "robin.fur@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 17,
+      "name": "thrush_pelt",
+      "email": "thrush.pelt@animalnet.org",
+      "role": "admin",
+      "active": false
+    },
+    {
+      "id": 18,
+      "name": "warbler_hide",
+      "email": "warbler.hide@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 19,
+      "name": "swift_coat",
+      "email": "swift.coat@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 20,
+      "name": "swallow_mane",
+      "email": "swallow.mane@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 21,
+      "name": "martin_tail",
+      "email": "martin.tail@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 22,
+      "name": "heron_plume",
+      "email": "heron.plume@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 23,
+      "name": "egret_feather",
+      "email": "egret.feather@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 24,
+      "name": "crane_wing",
+      "email": "crane.wing@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 25,
+      "name": "stork_fin",
+      "email": "stork.fin@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 26,
+      "name": "ibis_scale",
+      "email": "ibis.scale@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 27,
+      "name": "pelican_shell",
+      "email": "pelican.shell@animalnet.org",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 28,
+      "name": "cormorant_carapace",
+      "email": "cormorant.carapace@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 29,
+      "name": "gannet_spine",
+      "email": "gannet.spine@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 30,
+      "name": "albatross_quill",
+      "email": "albatross.quill@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 31,
+      "name": "petrel_barb",
+      "email": "petrel.barb@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 32,
+      "name": "puffin_frill",
+      "email": "puffin.frill@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 33,
+      "name": "guillemot_crest",
+      "email": "guillemot.crest@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 34,
+      "name": "tern_crown",
+      "email": "tern.crown@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 35,
+      "name": "gull_tuft",
+      "email": "gull.tuft@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 36,
+      "name": "skua_ruff",
+      "email": "skua.ruff@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 37,
+      "name": "penguin_collar",
+      "email": "penguin.collar@animalnet.org",
+      "role": "admin",
+      "active": false
+    },
+    {
+      "id": 38,
+      "name": "kiwi_stripe",
+      "email": "kiwi.stripe@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 39,
+      "name": "emu_spot",
+      "email": "emu.spot@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 40,
+      "name": "ostrich_patch",
+      "email": "ostrich.patch@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 41,
+      "name": "cassowary_blaze",
+      "email": "cassowary.blaze@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 42,
+      "name": "peacock_marking",
+      "email": "peacock.marking@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 43,
+      "name": "pheasant_band",
+      "email": "pheasant.band@animalnet.org",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 44,
+      "name": "quail_ring",
+      "email": "quail.ring@animalnet.org",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 45,
+      "name": "partridge_mask",
+      "email": "partridge.mask@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 46,
+      "name": "grouse_saddle",
+      "email": "grouse.saddle@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 47,
+      "name": "turkey_blanket",
+      "email": "turkey.blanket@animalnet.org",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 48,
+      "name": "duck_cape",
+      "email": "duck.cape@animalnet.org",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 49,
+      "name": "goose_mantle",
+      "email": "goose.mantle@animalnet.org",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 50,
+      "name": "swan_hood",
+      "email": "swan.hood@animalnet.org",
+      "role": "user",
+      "active": false
+    }
+  ]
+}

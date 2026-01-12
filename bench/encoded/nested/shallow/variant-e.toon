@@ -1,0 +1,8 @@
+organization:
+  name: Stellar Expedition
+  founded: 2014
+  departments[4]{id,name,budget,head,employee_count}:
+    propulsion,Propulsion Systems,12000000,Nova Drift,25
+    navigation,Navigation & Guidance,7500000,Nebula Shift,55
+    habitat,Habitat Engineering,5200000,Pulsar Spin,85
+    science,Space Science,4800000,Quasar Orbit,115

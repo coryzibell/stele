@@ -17,7 +17,7 @@ set -euo pipefail
 # Disable prompt caching to prevent cache leaking between tests
 # Without this, later tests benefit from earlier tests' cache creation,
 # making format comparisons unreliable (test ordering affects results)
-export DISABLE_PROMPT_CACHING=true
+export DISABLE_PROMPT_CACHING=1
 
 # Colors for output
 RED='\033[0;31m'
@@ -51,6 +51,16 @@ get_results_file() {
 FORMATS=("json" "stele-ascii" "stele-light" "stele-full" "toon")
 MODELS=("opus" "sonnet" "haiku")
 DATASETS=("flat/10" "flat/50" "flat/100" "flat/500" "nested/shallow" "nested/medium" "nested/deep")
+
+# Format→variant mapping to prevent prompt cache contamination
+# Each format gets a different dataset variant, ensuring no cache reuse
+declare -A FORMAT_VARIANTS=(
+    ["json"]="variant-a"
+    ["stele-ascii"]="variant-b"
+    ["stele-light"]="variant-c"
+    ["stele-full"]="variant-d"
+    ["toon"]="variant-e"
+)
 
 # Model name mapping for claude CLI
 declare -A MODEL_NAMES=(
@@ -170,16 +180,18 @@ run_test() {
         return 0
     fi
 
-    # Build paths - handle nested datasets
+    # Build paths - handle nested datasets WITH VARIANTS
     local data_file
     local prompt_file
     if [[ "$dataset" == *"/"* ]]; then
-        local category="${dataset%/*}"
-        local name="${dataset#*/}"
-        data_file="$ENCODED_DIR/$category/$name.$format"
+        local category="${dataset%/*}"    # e.g., "flat"
+        local name="${dataset#*/}"        # e.g., "10"
+        local variant="${FORMAT_VARIANTS[$format]}"
+        data_file="$ENCODED_DIR/$category/$name/$variant.$format"
         prompt_file="$PROMPTS_DIR/$category/$name.json"
     else
-        data_file="$ENCODED_DIR/$dataset.$format"
+        local variant="${FORMAT_VARIANTS[$format]}"
+        data_file="$ENCODED_DIR/$dataset/$variant.$format"
         prompt_file="$PROMPTS_DIR/$dataset.json"
     fi
 

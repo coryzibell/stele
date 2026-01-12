@@ -1,0 +1,36 @@
+{
+  "organization": {
+    "name": "Wildlife Preserve",
+    "founded": 2012,
+    "departments": [
+      {
+        "id": "avian",
+        "name": "Avian Division",
+        "budget": 3800000,
+        "head": "Falcon Paw",
+        "employee_count": 25
+      },
+      {
+        "id": "mammal",
+        "name": "Mammal Studies",
+        "budget": 5500000,
+        "head": "Hawk Claw",
+        "employee_count": 55
+      },
+      {
+        "id": "marine",
+        "name": "Marine Life",
+        "budget": 4200000,
+        "head": "Eagle Talon",
+        "employee_count": 85
+      },
+      {
+        "id": "reptile",
+        "name": "Reptile & Amphibian",
+        "budget": 2400000,
+        "head": "Osprey Hoof",
+        "employee_count": 115
+      }
+    ]
+  }
+}

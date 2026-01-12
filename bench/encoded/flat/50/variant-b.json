@@ -1,0 +1,354 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "crimson_shade",
+      "email": "crimson.shade@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "scarlet_tint",
+      "email": "scarlet.tint@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "ruby_tone",
+      "email": "ruby.tone@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "garnet_hue",
+      "email": "garnet.hue@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "vermillion_saturation",
+      "email": "vermillion.saturation@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "coral_value",
+      "email": "coral.value@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "salmon_chroma",
+      "email": "salmon.chroma@colorverse.net",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "peach_gradient",
+      "email": "peach.gradient@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "apricot_spectrum",
+      "email": "apricot.spectrum@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "tangerine_prism",
+      "email": "tangerine.prism@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 11,
+      "name": "amber_palette",
+      "email": "amber.palette@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "gold_swatch",
+      "email": "gold.swatch@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 13,
+      "name": "honey_pigment",
+      "email": "honey.pigment@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 14,
+      "name": "marigold_dye",
+      "email": "marigold.dye@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 15,
+      "name": "saffron_stain",
+      "email": "saffron.stain@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 16,
+      "name": "mustard_wash",
+      "email": "mustard.wash@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 17,
+      "name": "lemon_glaze",
+      "email": "lemon.glaze@colorverse.net",
+      "role": "admin",
+      "active": false
+    },
+    {
+      "id": 18,
+      "name": "canary_patina",
+      "email": "canary.patina@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 19,
+      "name": "chartreuse_finish",
+      "email": "chartreuse.finish@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 20,
+      "name": "lime_sheen",
+      "email": "lime.sheen@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 21,
+      "name": "mint_luster",
+      "email": "mint.luster@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 22,
+      "name": "sage_gleam",
+      "email": "sage.gleam@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 23,
+      "name": "olive_shimmer",
+      "email": "olive.shimmer@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 24,
+      "name": "emerald_sparkle",
+      "email": "emerald.sparkle@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 25,
+      "name": "jade_glitter",
+      "email": "jade.glitter@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 26,
+      "name": "teal_glow",
+      "email": "teal.glow@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 27,
+      "name": "cyan_radiance",
+      "email": "cyan.radiance@colorverse.net",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 28,
+      "name": "turquoise_luminance",
+      "email": "turquoise.luminance@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 29,
+      "name": "aqua_brilliance",
+      "email": "aqua.brilliance@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 30,
+      "name": "azure_flash",
+      "email": "azure.flash@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 31,
+      "name": "cerulean_flare",
+      "email": "cerulean.flare@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 32,
+      "name": "cobalt_beam",
+      "email": "cobalt.beam@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 33,
+      "name": "sapphire_ray",
+      "email": "sapphire.ray@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 34,
+      "name": "indigo_streak",
+      "email": "indigo.streak@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 35,
+      "name": "violet_stripe",
+      "email": "violet.stripe@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 36,
+      "name": "lavender_band",
+      "email": "lavender.band@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 37,
+      "name": "lilac_ribbon",
+      "email": "lilac.ribbon@colorverse.net",
+      "role": "admin",
+      "active": false
+    },
+    {
+      "id": 38,
+      "name": "mauve_swirl",
+      "email": "mauve.swirl@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 39,
+      "name": "plum_spiral",
+      "email": "plum.spiral@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 40,
+      "name": "magenta_wave",
+      "email": "magenta.wave@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 41,
+      "name": "fuchsia_ripple",
+      "email": "fuchsia.ripple@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 42,
+      "name": "rose_pool",
+      "email": "rose.pool@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 43,
+      "name": "blush_splash",
+      "email": "blush.splash@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 44,
+      "name": "pink_drip",
+      "email": "pink.drip@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 45,
+      "name": "cerise_pour",
+      "email": "cerise.pour@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 46,
+      "name": "maroon_flood",
+      "email": "maroon.flood@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 47,
+      "name": "burgundy_wash",
+      "email": "burgundy.wash@colorverse.net",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 48,
+      "name": "wine_fade",
+      "email": "wine.fade@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 49,
+      "name": "mahogany_blend",
+      "email": "mahogany.blend@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 50,
+      "name": "chestnut_merge",
+      "email": "chestnut.merge@colorverse.net",
+      "role": "user",
+      "active": false
+    }
+  ]
+}

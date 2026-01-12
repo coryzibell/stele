@@ -1,0 +1,306 @@
+{
+  "organization": {
+    "name": "Wildlife Reserve",
+    "founded": 2012,
+    "headquarters": "Costa Rica",
+    "departments": [
+      {
+        "id": "avian",
+        "name": "Avian Division",
+        "budget": 3800000,
+        "head": "Falcon Paw",
+        "teams": [
+          {
+            "id": "raptor",
+            "name": "Raptor Research",
+            "lead": "Kite Horn",
+            "members": [
+              {
+                "id": 1001,
+                "name": "Wren Bristle",
+                "role": "Field Researcher",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "tracking",
+                    "proficiency": "trainee",
+                    "years": 3
+                  },
+                  {
+                    "name": "observation",
+                    "proficiency": "field_assistant",
+                    "years": 2
+                  },
+                  {
+                    "name": "documentation",
+                    "proficiency": "researcher",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1002,
+                "name": "Robin Fur",
+                "role": "Behavioral Analyst",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "tranquilization",
+                    "proficiency": "field_assistant",
+                    "years": 5
+                  },
+                  {
+                    "name": "tagging",
+                    "proficiency": "researcher",
+                    "years": 4
+                  },
+                  {
+                    "name": "sampling",
+                    "proficiency": "senior_researcher",
+                    "years": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "songbird",
+            "name": "Songbird Study",
+            "lead": "Harrier Antler",
+            "members": [
+              {
+                "id": 1003,
+                "name": "Robin Fur",
+                "role": "Field Researcher",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "tranquilization",
+                    "proficiency": "trainee",
+                    "years": 3
+                  },
+                  {
+                    "name": "tagging",
+                    "proficiency": "field_assistant",
+                    "years": 2
+                  },
+                  {
+                    "name": "sampling",
+                    "proficiency": "researcher",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1004,
+                "name": "Thrush Pelt",
+                "role": "Behavioral Analyst",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "habitat_assessment",
+                    "proficiency": "field_assistant",
+                    "years": 5
+                  },
+                  {
+                    "name": "population_modeling",
+                    "proficiency": "researcher",
+                    "years": 4
+                  },
+                  {
+                    "name": "genetic_analysis",
+                    "proficiency": "senior_researcher",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1005,
+                "name": "Warbler Hide",
+                "role": "Conservation Lead",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "behavioral_coding",
+                    "proficiency": "researcher",
+                    "years": 7
+                  },
+                  {
+                    "name": "vocalization_analysis",
+                    "proficiency": "senior_researcher",
+                    "years": 6
+                  },
+                  {
+                    "name": "movement_patterns",
+                    "proficiency": "principal_investigator",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mammal",
+        "name": "Mammal Studies",
+        "budget": 5500000,
+        "head": "Hawk Claw",
+        "teams": [
+          {
+            "id": "predator",
+            "name": "Predator Tracking",
+            "lead": "Buzzard Tusk",
+            "members": [
+              {
+                "id": 1006,
+                "name": "Thrush Pelt",
+                "role": "Field Researcher",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "habitat_assessment",
+                    "proficiency": "trainee",
+                    "years": 3
+                  },
+                  {
+                    "name": "population_modeling",
+                    "proficiency": "field_assistant",
+                    "years": 2
+                  },
+                  {
+                    "name": "genetic_analysis",
+                    "proficiency": "researcher",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1007,
+                "name": "Warbler Hide",
+                "role": "Behavioral Analyst",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "behavioral_coding",
+                    "proficiency": "field_assistant",
+                    "years": 5
+                  },
+                  {
+                    "name": "vocalization_analysis",
+                    "proficiency": "researcher",
+                    "years": 4
+                  },
+                  {
+                    "name": "movement_patterns",
+                    "proficiency": "senior_researcher",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1008,
+                "name": "Swift Coat",
+                "role": "Conservation Lead",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "conservation_planning",
+                    "proficiency": "researcher",
+                    "years": 7
+                  },
+                  {
+                    "name": "habitat_restoration",
+                    "proficiency": "senior_researcher",
+                    "years": 6
+                  },
+                  {
+                    "name": "species_protection",
+                    "proficiency": "principal_investigator",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ungulate",
+            "name": "Ungulate Research",
+            "lead": "Owl Fang",
+            "members": [
+              {
+                "id": 1009,
+                "name": "Warbler Hide",
+                "role": "Field Researcher",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "behavioral_coding",
+                    "proficiency": "trainee",
+                    "years": 3
+                  },
+                  {
+                    "name": "vocalization_analysis",
+                    "proficiency": "field_assistant",
+                    "years": 2
+                  },
+                  {
+                    "name": "movement_patterns",
+                    "proficiency": "researcher",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1010,
+                "name": "Swift Coat",
+                "role": "Behavioral Analyst",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "conservation_planning",
+                    "proficiency": "field_assistant",
+                    "years": 5
+                  },
+                  {
+                    "name": "habitat_restoration",
+                    "proficiency": "researcher",
+                    "years": 4
+                  },
+                  {
+                    "name": "species_protection",
+                    "proficiency": "senior_researcher",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1011,
+                "name": "Swallow Mane",
+                "role": "Conservation Lead",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "tracking",
+                    "proficiency": "researcher",
+                    "years": 7
+                  },
+                  {
+                    "name": "observation",
+                    "proficiency": "senior_researcher",
+                    "years": 6
+                  },
+                  {
+                    "name": "documentation",
+                    "proficiency": "principal_investigator",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

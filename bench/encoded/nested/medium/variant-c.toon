@@ -1,0 +1,64 @@
+organization:
+  name: Wildlife Sanctuary
+  founded: 2012
+  departments[4]:
+    - id: avian
+      name: Avian Division
+      budget: 3800000
+      head: Falcon Paw
+      teams[3]:
+        - id: raptor
+          name: Raptor Research
+          lead: Kite Horn
+          members: 15
+          channels[3]: falcon,hawk,eagle
+        - id: songbird
+          name: Songbird Study
+          lead: Harrier Antler
+          members: 20
+          channels[3]: finch,sparrow,wren
+        - id: waterfowl
+          name: Waterfowl Watch
+          lead: Buzzard Tusk
+          members: 25
+          channels[3]: duck,goose,swan
+    - id: mammal
+      name: Mammal Studies
+      budget: 5500000
+      head: Hawk Claw
+      teams[2]:
+        - id: predator
+          name: Predator Tracking
+          lead: Owl Fang
+          members: 30
+          regions[3]: wolf,lion,tiger
+        - id: ungulate
+          name: Ungulate Research
+          lead: Raven Tooth
+          members: 35
+          regions[3]: deer,elk,moose
+    - id: marine
+      name: Marine Life
+      budget: 4200000
+      head: Eagle Talon
+      teams[2]:
+        - id: cetacean
+          name: Cetacean Study
+          lead: Crow Beak
+          members: 40
+          channels[3]: whale,dolphin,porpoise
+        - id: pinniped
+          name: Pinniped Watch
+          lead: Magpie Bill
+          members: 45
+          channels[3]: seal,sea_lion,walrus
+    - id: reptile
+      name: Reptile & Amphibian
+      budget: 2400000
+      head: Osprey Hoof
+      teams[1]:
+        - id: snake
+          name: Serpent Research
+          lead: Jay Snout
+          members: 50
+          channels[3]: cobra,python,viper

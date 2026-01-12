@@ -1,0 +1,8 @@
+organization:
+  name: Wildlife Preserve
+  founded: 2012
+  departments[4]{id,name,budget,head,employee_count}:
+    avian,Avian Division,3800000,Falcon Paw,25
+    mammal,Mammal Studies,5500000,Hawk Claw,55
+    marine,Marine Life,4200000,Eagle Talon,85
+    reptile,Reptile & Amphibian,2400000,Osprey Hoof,115

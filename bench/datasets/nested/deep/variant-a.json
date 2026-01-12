@@ -1,0 +1,306 @@
+{
+  "organization": {
+    "name": "Culinary Pantry",
+    "founded": 2010,
+    "headquarters": "Bordeaux, France",
+    "departments": [
+      {
+        "id": "bakery",
+        "name": "Bakery Division",
+        "budget": 4500000,
+        "head": "Pepper Crumble",
+        "teams": [
+          {
+            "id": "bread",
+            "name": "Artisan Bread",
+            "lead": "Olive Glaze",
+            "members": [
+              {
+                "id": 1001,
+                "name": "Nutmeg Saute",
+                "role": "Sous Chef",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "knife_work",
+                    "proficiency": "apprentice",
+                    "years": 3
+                  },
+                  {
+                    "name": "sauteing",
+                    "proficiency": "commis",
+                    "years": 2
+                  },
+                  {
+                    "name": "braising",
+                    "proficiency": "chef_de_partie",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1002,
+                "name": "Almond Blanch",
+                "role": "Line Cook",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "tempering",
+                    "proficiency": "commis",
+                    "years": 5
+                  },
+                  {
+                    "name": "lamination",
+                    "proficiency": "chef_de_partie",
+                    "years": 4
+                  },
+                  {
+                    "name": "fermentation",
+                    "proficiency": "sous_chef",
+                    "years": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pastry_bake",
+            "name": "Baked Pastries",
+            "lead": "Clove Puree",
+            "members": [
+              {
+                "id": 1003,
+                "name": "Almond Blanch",
+                "role": "Sous Chef",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "tempering",
+                    "proficiency": "apprentice",
+                    "years": 3
+                  },
+                  {
+                    "name": "lamination",
+                    "proficiency": "commis",
+                    "years": 2
+                  },
+                  {
+                    "name": "fermentation",
+                    "proficiency": "chef_de_partie",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1004,
+                "name": "Pecan Poach",
+                "role": "Line Cook",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "emulsification",
+                    "proficiency": "commis",
+                    "years": 5
+                  },
+                  {
+                    "name": "reduction",
+                    "proficiency": "chef_de_partie",
+                    "years": 4
+                  },
+                  {
+                    "name": "plating",
+                    "proficiency": "sous_chef",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1005,
+                "name": "Walnut Simmer",
+                "role": "Pastry Chef",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "butchery",
+                    "proficiency": "chef_de_partie",
+                    "years": 7
+                  },
+                  {
+                    "name": "filleting",
+                    "proficiency": "sous_chef",
+                    "years": 6
+                  },
+                  {
+                    "name": "curing",
+                    "proficiency": "executive",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "savory",
+        "name": "Savory Arts",
+        "budget": 5200000,
+        "head": "Ginger Tart",
+        "teams": [
+          {
+            "id": "grill",
+            "name": "Grill Station",
+            "lead": "Maple Preserve",
+            "members": [
+              {
+                "id": 1006,
+                "name": "Pecan Poach",
+                "role": "Sous Chef",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "emulsification",
+                    "proficiency": "apprentice",
+                    "years": 3
+                  },
+                  {
+                    "name": "reduction",
+                    "proficiency": "commis",
+                    "years": 2
+                  },
+                  {
+                    "name": "plating",
+                    "proficiency": "chef_de_partie",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1007,
+                "name": "Walnut Simmer",
+                "role": "Line Cook",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "butchery",
+                    "proficiency": "commis",
+                    "years": 5
+                  },
+                  {
+                    "name": "filleting",
+                    "proficiency": "chef_de_partie",
+                    "years": 4
+                  },
+                  {
+                    "name": "curing",
+                    "proficiency": "sous_chef",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1008,
+                "name": "Cashew Steam",
+                "role": "Pastry Chef",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "baking",
+                    "proficiency": "chef_de_partie",
+                    "years": 7
+                  },
+                  {
+                    "name": "proofing",
+                    "proficiency": "sous_chef",
+                    "years": 6
+                  },
+                  {
+                    "name": "shaping",
+                    "proficiency": "executive",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Sauce Kitchen",
+            "lead": "Hazel Chutney",
+            "members": [
+              {
+                "id": 1009,
+                "name": "Walnut Simmer",
+                "role": "Sous Chef",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "butchery",
+                    "proficiency": "apprentice",
+                    "years": 3
+                  },
+                  {
+                    "name": "filleting",
+                    "proficiency": "commis",
+                    "years": 2
+                  },
+                  {
+                    "name": "curing",
+                    "proficiency": "chef_de_partie",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1010,
+                "name": "Cashew Steam",
+                "role": "Line Cook",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "baking",
+                    "proficiency": "commis",
+                    "years": 5
+                  },
+                  {
+                    "name": "proofing",
+                    "proficiency": "chef_de_partie",
+                    "years": 4
+                  },
+                  {
+                    "name": "shaping",
+                    "proficiency": "sous_chef",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1011,
+                "name": "Pistachio Grill",
+                "role": "Pastry Chef",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "knife_work",
+                    "proficiency": "chef_de_partie",
+                    "years": 7
+                  },
+                  {
+                    "name": "sauteing",
+                    "proficiency": "sous_chef",
+                    "years": 6
+                  },
+                  {
+                    "name": "braising",
+                    "proficiency": "executive",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

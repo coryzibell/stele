@@ -1,0 +1,64 @@
+organization:
+  name: Culinary Kitchen
+  founded: 2010
+  departments[4]:
+    - id: bakery
+      name: Bakery Division
+      budget: 4500000
+      head: Pepper Crumble
+      teams[3]:
+        - id: bread
+          name: Artisan Bread
+          lead: Olive Glaze
+          members: 15
+          tech_stack[3]: sourdough,ciabatta,baguette
+        - id: pastry_bake
+          name: Baked Pastries
+          lead: Clove Puree
+          members: 20
+          tech_stack[3]: croissant,danish,brioche
+        - id: gluten_free
+          name: Gluten-Free
+          lead: Maple Preserve
+          members: 25
+          tech_stack[3]: rice_flour,almond_flour,buckwheat
+    - id: savory
+      name: Savory Arts
+      budget: 5200000
+      head: Ginger Tart
+      teams[2]:
+        - id: grill
+          name: Grill Station
+          lead: Hazel Chutney
+          members: 30
+          regions[3]: charcoal,wood_fire,plancha
+        - id: sauce
+          name: Sauce Kitchen
+          lead: Honey Relish
+          members: 35
+          regions[3]: reduction,emulsion,stock
+    - id: pastry
+      name: Pastry & Desserts
+      budget: 3800000
+      head: Basil Crisp
+      teams[2]:
+        - id: chocolate
+          name: Chocolate Lab
+          lead: Cinnamon Brine
+          members: 40
+          channels[3]: tempering,ganache,praline
+        - id: sugar
+          name: Sugar Work
+          lead: Saffron Cure
+          members: 45
+          channels[3]: caramel,pulled_sugar,isomalt
+    - id: ferment
+      name: Fermentation Lab
+      budget: 2100000
+      head: Sage Compote
+      teams[1]:
+        - id: pickle
+          name: Pickle & Preserve
+          lead: Thyme Smoke
+          members: 50
+          channels[3]: lacto,vinegar,salt_cure

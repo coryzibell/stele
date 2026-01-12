@@ -1,0 +1,11 @@
+users[10]{id,name,email,role,active}:
+  1,tokyo_avenue,tokyo.avenue@cityscape.co,admin,true
+  2,kyoto_boulevard,kyoto.boulevard@cityscape.co,user,true
+  3,osaka_street,osaka.street@cityscape.co,moderator,true
+  4,seoul_lane,seoul.lane@cityscape.co,user,false
+  5,beijing_road,beijing.road@cityscape.co,admin,true
+  6,shanghai_drive,shanghai.drive@cityscape.co,user,true
+  7,mumbai_way,mumbai.way@cityscape.co,moderator,false
+  8,delhi_court,delhi.court@cityscape.co,user,true
+  9,bangkok_place,bangkok.place@cityscape.co,admin,true
+  10,hanoi_circle,hanoi.circle@cityscape.co,user,false

@@ -1,0 +1,64 @@
+organization:
+  name: Stellar Consortium
+  founded: 2014
+  departments[4]:
+    - id: propulsion
+      name: Propulsion Systems
+      budget: 12000000
+      head: Nova Drift
+      teams[3]:
+        - id: chemical
+          name: Chemical Propulsion
+          lead: Neutron Transit
+          members: 15
+          tech_stack[3]: liquid,solid,hybrid
+        - id: ion
+          name: Ion Propulsion
+          lead: Proton Eclipse
+          members: 20
+          tech_stack[3]: hall_thruster,gridded_ion,pulsed_plasma
+        - id: experimental
+          name: Experimental Drives
+          lead: Photon Occult
+          members: 25
+          tech_stack[3]: solar_sail,nuclear_thermal,em_drive
+    - id: navigation
+      name: Navigation & Guidance
+      budget: 7500000
+      head: Nebula Shift
+      teams[2]:
+        - id: orbital
+          name: Orbital Mechanics
+          lead: Electron Phase
+          members: 30
+          channels[3]: trajectory,transfer,rendezvous
+        - id: comms
+          name: Deep Space Comms
+          lead: Positron Cycle
+          members: 35
+          channels[3]: dsn,optical,relay
+    - id: habitat
+      name: Habitat Engineering
+      budget: 5200000
+      head: Pulsar Spin
+      teams[2]:
+        - id: life_support
+          name: Life Support
+          lead: Neutrino Period
+          members: 40
+          channels[3]: atmosphere,water,food
+        - id: radiation
+          name: Radiation Shielding
+          lead: Muon Epoch
+          members: 45
+          channels[3]: passive,active,magnetic
+    - id: science
+      name: Space Science
+      budget: 4800000
+      head: Quasar Orbit
+      teams[1]:
+        - id: astronomy
+          name: Observational Astronomy
+          lead: Tau Era
+          members: 50
+          channels[3]: optical,radio,infrared

@@ -1,0 +1,8 @@
+organization:
+  name: Metropolitan Alliance
+  founded: 2013
+  departments[4]{id,name,budget,head,employee_count}:
+    transit,Transit Systems,8500000,Tokyo Avenue,25
+    planning,Urban Planning,6200000,Kyoto Boulevard,55
+    green,Green Spaces,3400000,Osaka Street,85
+    smart,Smart City Tech,5800000,Seoul Lane,115

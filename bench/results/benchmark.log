@@ -80,3 +80,223 @@ error: unknown option '--prompt'
 [2026-01-11 19:03:28] [INFO] Starting test: toon_haiku_nested-deep
 [2026-01-11 19:03:39] [INFO] Test toon_haiku_nested-deep completed successfully in 11s
 [2026-01-11 19:03:39] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 22:18:13] [INFO] Benchmark run started
+[2026-01-11 22:18:13] [INFO] Starting test: json_haiku_flat-50
+[2026-01-11 22:18:39] [INFO] Test json_haiku_flat-50 completed successfully in 26s
+[2026-01-11 22:18:39] [INFO] Starting test: stele-ascii_haiku_flat-50
+[2026-01-11 22:18:50] [INFO] Test stele-ascii_haiku_flat-50 completed successfully in 11s
+[2026-01-11 22:18:50] [INFO] Starting test: stele-light_haiku_flat-50
+[2026-01-11 22:19:00] [INFO] Test stele-light_haiku_flat-50 completed successfully in 10s
+[2026-01-11 22:19:00] [INFO] Starting test: stele-full_haiku_flat-50
+[2026-01-11 22:19:11] [INFO] Test stele-full_haiku_flat-50 completed successfully in 11s
+[2026-01-11 22:19:11] [INFO] Starting test: toon_haiku_flat-50
+[2026-01-11 22:19:25] [INFO] Test toon_haiku_flat-50 completed successfully in 14s
+[2026-01-11 22:19:25] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 22:21:38] [INFO] Benchmark run started
+[2026-01-11 22:21:38] [INFO] Starting test: json_haiku_flat-500
+[2026-01-11 22:21:53] [INFO] Test json_haiku_flat-500 completed successfully in 15s
+[2026-01-11 22:21:53] [INFO] Starting test: stele-ascii_haiku_flat-500
+[2026-01-11 22:22:04] [INFO] Test stele-ascii_haiku_flat-500 completed successfully in 11s
+[2026-01-11 22:22:04] [INFO] Starting test: stele-light_haiku_flat-500
+[2026-01-11 22:22:24] [INFO] Test stele-light_haiku_flat-500 completed successfully in 20s
+[2026-01-11 22:22:24] [INFO] Starting test: stele-full_haiku_flat-500
+[2026-01-11 22:22:38] [INFO] Test stele-full_haiku_flat-500 completed successfully in 14s
+[2026-01-11 22:22:38] [INFO] Starting test: toon_haiku_flat-500
+[2026-01-11 22:22:52] [INFO] Test toon_haiku_flat-500 completed successfully in 14s
+[2026-01-11 22:22:52] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 22:28:20] [INFO] Benchmark run started
+[2026-01-11 22:28:20] [INFO] Starting test: json_haiku_nested-shallow
+[2026-01-11 22:33:01] [INFO] Benchmark run started
+[2026-01-11 22:33:01] [INFO] Starting test: json_haiku_nested-shallow
+[2026-01-11 22:51:03] [INFO] Benchmark run started
+[2026-01-11 22:51:03] [INFO] Starting test: json_haiku_nested-shallow
+[2026-01-11 22:51:10] [INFO] Test json_haiku_nested-shallow completed successfully in 7s
+[2026-01-11 22:51:10] [INFO] Starting test: stele-ascii_haiku_nested-shallow
+[2026-01-11 22:51:18] [INFO] Test stele-ascii_haiku_nested-shallow completed successfully in 8s
+[2026-01-11 22:51:18] [INFO] Starting test: stele-light_haiku_nested-shallow
+[2026-01-11 22:51:28] [INFO] Test stele-light_haiku_nested-shallow completed successfully in 10s
+[2026-01-11 22:51:28] [INFO] Starting test: stele-full_haiku_nested-shallow
+[2026-01-11 22:51:35] [INFO] Test stele-full_haiku_nested-shallow completed successfully in 7s
+[2026-01-11 22:51:35] [INFO] Starting test: toon_haiku_nested-shallow
+[2026-01-11 22:51:42] [INFO] Test toon_haiku_nested-shallow completed successfully in 7s
+[2026-01-11 22:51:42] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 22:53:16] [INFO] Benchmark run started
+[2026-01-11 22:53:16] [INFO] Starting test: json_haiku_nested-medium
+[2026-01-11 22:53:26] [INFO] Test json_haiku_nested-medium completed successfully in 10s
+[2026-01-11 22:53:26] [INFO] Starting test: stele-ascii_haiku_nested-medium
+[2026-01-11 22:53:32] [INFO] Test stele-ascii_haiku_nested-medium completed successfully in 6s
+[2026-01-11 22:53:32] [INFO] Starting test: stele-light_haiku_nested-medium
+[2026-01-11 22:53:49] [INFO] Test stele-light_haiku_nested-medium completed successfully in 16s
+[2026-01-11 22:53:49] [INFO] Starting test: stele-full_haiku_nested-medium
+[2026-01-11 22:53:56] [INFO] Test stele-full_haiku_nested-medium completed successfully in 7s
+[2026-01-11 22:53:56] [INFO] Starting test: toon_haiku_nested-medium
+[2026-01-11 22:54:01] [INFO] Test toon_haiku_nested-medium completed successfully in 5s
+[2026-01-11 22:54:01] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 23:00:30] [INFO] Benchmark run started
+[2026-01-11 23:00:30] [INFO] Starting test: stele-full_haiku_nested-shallow
+[2026-01-11 23:00:39] [INFO] Test stele-full_haiku_nested-shallow completed successfully in 9s
+[2026-01-11 23:00:39] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:00:48] [INFO] Benchmark run started
+[2026-01-11 23:00:48] [INFO] Starting test: json_haiku_nested-shallow
+[2026-01-11 23:00:53] [INFO] Test json_haiku_nested-shallow completed successfully in 5s
+[2026-01-11 23:00:53] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:00:53] [INFO] Benchmark run started
+[2026-01-11 23:00:53] [INFO] Starting test: stele-ascii_haiku_nested-shallow
+[2026-01-11 23:01:01] [INFO] Test stele-ascii_haiku_nested-shallow completed successfully in 8s
+[2026-01-11 23:01:01] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:01:01] [INFO] Benchmark run started
+[2026-01-11 23:01:01] [INFO] Starting test: stele-light_haiku_nested-shallow
+[2026-01-11 23:01:08] [INFO] Test stele-light_haiku_nested-shallow completed successfully in 7s
+[2026-01-11 23:01:08] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:01:08] [INFO] Benchmark run started
+[2026-01-11 23:01:08] [INFO] Starting test: toon_haiku_nested-shallow
+[2026-01-11 23:01:13] [INFO] Test toon_haiku_nested-shallow completed successfully in 5s
+[2026-01-11 23:01:13] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:06:34] [INFO] Benchmark run started
+[2026-01-11 23:06:34] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 23:06:34] [INFO] Test json_haiku_flat-10 already completed, skipping
+[2026-01-11 23:06:34] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:07:16] [INFO] Benchmark run started
+[2026-01-11 23:07:16] [INFO] Starting test: json_sonnet_flat-10
+[2026-01-11 23:07:21] [INFO] Test json_sonnet_flat-10 completed successfully in 4s
+[2026-01-11 23:07:21] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:07:40] [INFO] Benchmark run started
+[2026-01-11 23:07:40] [INFO] Starting test: stele-ascii_sonnet_flat-10
+[2026-01-11 23:07:47] [INFO] Test stele-ascii_sonnet_flat-10 completed successfully in 7s
+[2026-01-11 23:07:47] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 23:41:24] [INFO] Benchmark run started
+[2026-01-11 23:41:24] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 23:41:33] [INFO] Test json_haiku_flat-10 completed successfully in 9s
+[2026-01-11 23:41:33] [INFO] Starting test: stele-ascii_haiku_flat-10
+[2026-01-11 23:41:43] [INFO] Test stele-ascii_haiku_flat-10 completed successfully in 10s
+[2026-01-11 23:41:43] [INFO] Starting test: stele-light_haiku_flat-10
+[2026-01-11 23:41:53] [INFO] Test stele-light_haiku_flat-10 completed successfully in 10s
+[2026-01-11 23:41:53] [INFO] Starting test: stele-full_haiku_flat-10
+[2026-01-11 23:42:05] [INFO] Test stele-full_haiku_flat-10 completed successfully in 12s
+[2026-01-11 23:42:05] [INFO] Starting test: toon_haiku_flat-10
+[2026-01-11 23:42:12] [INFO] Test toon_haiku_flat-10 completed successfully in 7s
+[2026-01-11 23:42:12] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 23:43:42] [INFO] Benchmark run started
+[2026-01-11 23:43:42] [INFO] Starting test: json_haiku_flat-50
+[2026-01-11 23:44:17] [INFO] Test json_haiku_flat-50 completed successfully in 35s
+[2026-01-11 23:44:17] [INFO] Starting test: stele-ascii_haiku_flat-50
+[2026-01-11 23:44:36] [INFO] Test stele-ascii_haiku_flat-50 completed successfully in 19s
+[2026-01-11 23:44:36] [INFO] Starting test: stele-light_haiku_flat-50
+[2026-01-11 23:45:07] [INFO] Test stele-light_haiku_flat-50 completed successfully in 31s
+[2026-01-11 23:45:07] [INFO] Starting test: stele-full_haiku_flat-50
+[2026-01-11 23:46:05] [INFO] Test stele-full_haiku_flat-50 completed successfully in 58s
+[2026-01-11 23:46:05] [INFO] Starting test: toon_haiku_flat-50
+[2026-01-11 23:46:15] [INFO] Test toon_haiku_flat-50 completed successfully in 10s
+[2026-01-11 23:46:16] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 23:48:35] [INFO] Benchmark run started
+[2026-01-11 23:48:35] [INFO] Starting test: json_haiku_flat-100
+[2026-01-11 23:48:48] [INFO] Test json_haiku_flat-100 completed successfully in 13s
+[2026-01-11 23:48:48] [INFO] Starting test: stele-ascii_haiku_flat-100
+[2026-01-11 23:48:58] [INFO] Test stele-ascii_haiku_flat-100 completed successfully in 10s
+[2026-01-11 23:48:58] [INFO] Starting test: stele-light_haiku_flat-100
+[2026-01-11 23:49:06] [INFO] Test stele-light_haiku_flat-100 completed successfully in 8s
+[2026-01-11 23:49:06] [INFO] Starting test: stele-full_haiku_flat-100
+[2026-01-11 23:49:19] [INFO] Test stele-full_haiku_flat-100 completed successfully in 13s
+[2026-01-11 23:49:19] [INFO] Starting test: toon_haiku_flat-100
+[2026-01-11 23:49:29] [INFO] Test toon_haiku_flat-100 completed successfully in 10s
+[2026-01-11 23:49:29] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-12 00:27:15] [INFO] Benchmark run started
+[2026-01-12 00:27:15] [INFO] Starting test: json_haiku_flat-10
+[2026-01-12 00:27:15] [ERROR] Data file not found: /home/kautau/forge/stele/bench/encoded/flat/10/variant-a.json
+[2026-01-12 00:27:15] [INFO] Benchmark run completed: 0 successful, 1 failed
+[2026-01-12 00:40:28] [INFO] Benchmark run started
+[2026-01-12 00:40:28] [INFO] Starting test: json_haiku_flat-10
+[2026-01-12 00:41:03] [INFO] Test json_haiku_flat-10 completed successfully in 35s
+[2026-01-12 00:41:03] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:41:12] [INFO] Benchmark run started
+[2026-01-12 00:41:12] [INFO] Starting test: json_haiku_flat-10
+[2026-01-12 00:41:12] [INFO] Test json_haiku_flat-10 already completed, skipping
+[2026-01-12 00:41:12] [INFO] Starting test: stele-ascii_haiku_flat-10
+[2026-01-12 00:41:53] [INFO] Test stele-ascii_haiku_flat-10 completed successfully in 41s
+[2026-01-12 00:41:53] [INFO] Starting test: stele-light_haiku_flat-10
+[2026-01-12 00:42:05] [INFO] Test stele-light_haiku_flat-10 completed successfully in 12s
+[2026-01-12 00:42:05] [INFO] Starting test: stele-full_haiku_flat-10
+[2026-01-12 00:42:15] [INFO] Test stele-full_haiku_flat-10 completed successfully in 10s
+[2026-01-12 00:42:15] [INFO] Starting test: toon_haiku_flat-10
+[2026-01-12 00:42:30] [INFO] Test toon_haiku_flat-10 completed successfully in 15s
+[2026-01-12 00:42:30] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-12 00:47:41] [INFO] Benchmark run started
+[2026-01-12 00:47:41] [INFO] Starting test: json_haiku_flat-10
+[2026-01-12 00:48:16] [INFO] Test json_haiku_flat-10 completed successfully in 35s
+[2026-01-12 00:48:16] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:48:25] [INFO] Benchmark run started
+[2026-01-12 00:48:25] [INFO] Starting test: stele-ascii_haiku_flat-10
+[2026-01-12 00:48:38] [INFO] Test stele-ascii_haiku_flat-10 completed successfully in 13s
+[2026-01-12 00:48:38] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:48:47] [INFO] Benchmark run started
+[2026-01-12 00:48:47] [INFO] Starting test: stele-light_haiku_flat-10
+[2026-01-12 00:48:57] [INFO] Test stele-light_haiku_flat-10 completed successfully in 10s
+[2026-01-12 00:48:57] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:49:05] [INFO] Benchmark run started
+[2026-01-12 00:49:05] [INFO] Starting test: stele-full_haiku_flat-10
+[2026-01-12 00:49:15] [INFO] Test stele-full_haiku_flat-10 completed successfully in 10s
+[2026-01-12 00:49:15] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:49:21] [INFO] Benchmark run started
+[2026-01-12 00:49:21] [INFO] Starting test: toon_haiku_flat-10
+[2026-01-12 00:49:31] [INFO] Test toon_haiku_flat-10 completed successfully in 10s
+[2026-01-12 00:49:31] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:53:28] [INFO] Benchmark run started
+[2026-01-12 00:53:28] [INFO] Starting test: json_haiku_flat-50
+[2026-01-12 00:54:04] [INFO] Test json_haiku_flat-50 completed successfully in 36s
+[2026-01-12 00:54:04] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:54:11] [INFO] Benchmark run started
+[2026-01-12 00:54:11] [INFO] Starting test: stele-ascii_haiku_flat-50
+[2026-01-12 00:54:25] [INFO] Test stele-ascii_haiku_flat-50 completed successfully in 14s
+[2026-01-12 00:54:25] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:54:31] [INFO] Benchmark run started
+[2026-01-12 00:54:31] [INFO] Starting test: stele-light_haiku_flat-50
+[2026-01-12 00:55:32] [INFO] Test stele-light_haiku_flat-50 completed successfully in 61s
+[2026-01-12 00:55:32] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:55:41] [INFO] Benchmark run started
+[2026-01-12 00:55:41] [INFO] Starting test: stele-full_haiku_flat-50
+[2026-01-12 00:56:09] [INFO] Test stele-full_haiku_flat-50 completed successfully in 28s
+[2026-01-12 00:56:09] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:56:17] [INFO] Benchmark run started
+[2026-01-12 00:56:17] [INFO] Starting test: toon_haiku_flat-50
+[2026-01-12 00:56:34] [INFO] Test toon_haiku_flat-50 completed successfully in 16s
+[2026-01-12 00:56:34] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:58:03] [INFO] Benchmark run started
+[2026-01-12 00:58:03] [INFO] Starting test: json_haiku_flat-100
+[2026-01-12 00:58:41] [INFO] Test json_haiku_flat-100 completed successfully in 38s
+[2026-01-12 00:58:41] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:58:41] [INFO] Benchmark run started
+[2026-01-12 00:58:41] [INFO] Starting test: stele-ascii_haiku_flat-100
+[2026-01-12 00:59:09] [INFO] Test stele-ascii_haiku_flat-100 completed successfully in 28s
+[2026-01-12 00:59:09] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 00:59:09] [INFO] Benchmark run started
+[2026-01-12 00:59:09] [INFO] Starting test: stele-light_haiku_flat-100
+[2026-01-12 01:00:04] [INFO] Test stele-light_haiku_flat-100 completed successfully in 55s
+[2026-01-12 01:00:04] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:00:04] [INFO] Benchmark run started
+[2026-01-12 01:00:04] [INFO] Starting test: stele-full_haiku_flat-100
+[2026-01-12 01:01:55] [INFO] Test stele-full_haiku_flat-100 completed successfully in 111s
+[2026-01-12 01:01:55] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:01:55] [INFO] Benchmark run started
+[2026-01-12 01:01:55] [INFO] Starting test: toon_haiku_flat-100
+[2026-01-12 01:02:09] [INFO] Test toon_haiku_flat-100 completed successfully in 14s
+[2026-01-12 01:02:09] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:10:26] [INFO] Benchmark run started
+[2026-01-12 01:10:26] [INFO] Starting test: json_haiku_nested-deep
+[2026-01-12 01:10:35] [INFO] Test json_haiku_nested-deep completed successfully in 9s
+[2026-01-12 01:10:35] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:10:35] [INFO] Benchmark run started
+[2026-01-12 01:10:35] [INFO] Starting test: toon_haiku_nested-deep
+[2026-01-12 01:11:02] [INFO] Test toon_haiku_nested-deep completed successfully in 27s
+[2026-01-12 01:11:02] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:11:02] [INFO] Benchmark run started
+[2026-01-12 01:11:02] [INFO] Starting test: stele-ascii_haiku_nested-deep
+[2026-01-12 01:11:15] [INFO] Test stele-ascii_haiku_nested-deep completed successfully in 13s
+[2026-01-12 01:11:15] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:11:15] [INFO] Benchmark run started
+[2026-01-12 01:11:15] [INFO] Starting test: stele-light_haiku_nested-deep
+[2026-01-12 01:11:27] [INFO] Test stele-light_haiku_nested-deep completed successfully in 12s
+[2026-01-12 01:11:27] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-12 01:11:27] [INFO] Benchmark run started
+[2026-01-12 01:11:27] [INFO] Starting test: stele-full_haiku_nested-deep
+[2026-01-12 01:11:56] [INFO] Test stele-full_haiku_nested-deep completed successfully in 29s
+[2026-01-12 01:11:56] [INFO] Benchmark run completed: 1 successful, 0 failed

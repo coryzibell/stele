@@ -1,0 +1,8 @@
+organization:
+  name: Culinary Collective
+  founded: 2010
+  departments[4]{id,name,budget,head,employee_count}:
+    bakery,Bakery Division,4500000,Pepper Crumble,25
+    savory,Savory Arts,5200000,Ginger Tart,55
+    pastry,Pastry & Desserts,3800000,Basil Crisp,85
+    ferment,Fermentation Lab,2100000,Sage Compote,115

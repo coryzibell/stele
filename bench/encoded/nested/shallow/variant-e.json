@@ -1,0 +1,36 @@
+{
+  "organization": {
+    "name": "Stellar Expedition",
+    "founded": 2014,
+    "departments": [
+      {
+        "id": "propulsion",
+        "name": "Propulsion Systems",
+        "budget": 12000000,
+        "head": "Nova Drift",
+        "employee_count": 25
+      },
+      {
+        "id": "navigation",
+        "name": "Navigation & Guidance",
+        "budget": 7500000,
+        "head": "Nebula Shift",
+        "employee_count": 55
+      },
+      {
+        "id": "habitat",
+        "name": "Habitat Engineering",
+        "budget": 5200000,
+        "head": "Pulsar Spin",
+        "employee_count": 85
+      },
+      {
+        "id": "science",
+        "name": "Space Science",
+        "budget": 4800000,
+        "head": "Quasar Orbit",
+        "employee_count": 115
+      }
+    ]
+  }
+}

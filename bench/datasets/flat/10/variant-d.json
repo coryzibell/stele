@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "tokyo_avenue",
+      "email": "tokyo.avenue@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "kyoto_boulevard",
+      "email": "kyoto.boulevard@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "osaka_street",
+      "email": "osaka.street@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "seoul_lane",
+      "email": "seoul.lane@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "beijing_road",
+      "email": "beijing.road@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "shanghai_drive",
+      "email": "shanghai.drive@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "mumbai_way",
+      "email": "mumbai.way@cityscape.co",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "delhi_court",
+      "email": "delhi.court@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "bangkok_place",
+      "email": "bangkok.place@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "hanoi_circle",
+      "email": "hanoi.circle@cityscape.co",
+      "role": "user",
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "organization": {
+    "name": "Metropolitan Alliance",
+    "founded": 2013,
+    "departments": [
+      {
+        "id": "transit",
+        "name": "Transit Systems",
+        "budget": 8500000,
+        "head": "Tokyo Avenue",
+        "employee_count": 25
+      },
+      {
+        "id": "planning",
+        "name": "Urban Planning",
+        "budget": 6200000,
+        "head": "Kyoto Boulevard",
+        "employee_count": 55
+      },
+      {
+        "id": "green",
+        "name": "Green Spaces",
+        "budget": 3400000,
+        "head": "Osaka Street",
+        "employee_count": 85
+      },
+      {
+        "id": "smart",
+        "name": "Smart City Tech",
+        "budget": 5800000,
+        "head": "Seoul Lane",
+        "employee_count": 115
+      }
+    ]
+  }
+}

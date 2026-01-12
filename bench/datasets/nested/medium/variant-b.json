@@ -1,0 +1,128 @@
+{
+  "organization": {
+    "name": "Chromatic Spectrum",
+    "founded": 2011,
+    "departments": [
+      {
+        "id": "warm",
+        "name": "Warm Tones Division",
+        "budget": 4200000,
+        "head": "Crimson Shade",
+        "teams": [
+          {
+            "id": "red",
+            "name": "Red Family",
+            "lead": "Saffron Gradient",
+            "members": 15,
+            "tech_stack": [
+              "vermillion",
+              "coral",
+              "salmon"
+            ]
+          },
+          {
+            "id": "orange",
+            "name": "Orange Spectrum",
+            "lead": "Mustard Spectrum",
+            "members": 20,
+            "tech_stack": [
+              "tangerine",
+              "amber",
+              "apricot"
+            ]
+          },
+          {
+            "id": "yellow",
+            "name": "Yellow Suite",
+            "lead": "Lemon Prism",
+            "members": 25,
+            "tech_stack": [
+              "gold",
+              "honey",
+              "marigold"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cool",
+        "name": "Cool Spectrum",
+        "budget": 4800000,
+        "head": "Scarlet Tint",
+        "teams": [
+          {
+            "id": "blue",
+            "name": "Blue Depths",
+            "lead": "Canary Palette",
+            "members": 30,
+            "channels": [
+              "azure",
+              "cerulean",
+              "cobalt"
+            ]
+          },
+          {
+            "id": "green",
+            "name": "Green Range",
+            "lead": "Chartreuse Swatch",
+            "members": 35,
+            "channels": [
+              "emerald",
+              "jade",
+              "sage"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "neutral",
+        "name": "Neutral & Earth",
+        "budget": 2900000,
+        "head": "Ruby Tone",
+        "teams": [
+          {
+            "id": "gray",
+            "name": "Gray Scale",
+            "lead": "Lime Pigment",
+            "members": 40,
+            "channels": [
+              "charcoal",
+              "slate",
+              "ash"
+            ]
+          },
+          {
+            "id": "brown",
+            "name": "Earth Tones",
+            "lead": "Mint Dye",
+            "members": 45,
+            "channels": [
+              "sienna",
+              "umber",
+              "ochre"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vivid",
+        "name": "Vivid & Neon",
+        "budget": 3500000,
+        "head": "Garnet Hue",
+        "teams": [
+          {
+            "id": "neon",
+            "name": "Neon Lab",
+            "lead": "Sage Stain",
+            "members": 50,
+            "channels": [
+              "electric",
+              "fluorescent",
+              "phosphor"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

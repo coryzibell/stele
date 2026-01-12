@@ -1,0 +1,128 @@
+{
+  "organization": {
+    "name": "Metropolitan Network",
+    "founded": 2013,
+    "departments": [
+      {
+        "id": "transit",
+        "name": "Transit Systems",
+        "budget": 8500000,
+        "head": "Tokyo Avenue",
+        "teams": [
+          {
+            "id": "rail",
+            "name": "Rail Network",
+            "lead": "Beijing Road",
+            "members": 15,
+            "regions": [
+              "subway",
+              "light_rail",
+              "commuter"
+            ]
+          },
+          {
+            "id": "bus",
+            "name": "Bus Operations",
+            "lead": "Shanghai Drive",
+            "members": 20,
+            "regions": [
+              "local",
+              "express",
+              "brt"
+            ]
+          },
+          {
+            "id": "bike",
+            "name": "Cycling Infrastructure",
+            "lead": "Mumbai Way",
+            "members": 25,
+            "regions": [
+              "lanes",
+              "sharing",
+              "parking"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "planning",
+        "name": "Urban Planning",
+        "budget": 6200000,
+        "head": "Kyoto Boulevard",
+        "teams": [
+          {
+            "id": "zoning",
+            "name": "Zoning & Land Use",
+            "lead": "Delhi Court",
+            "members": 30,
+            "channels": [
+              "residential",
+              "commercial",
+              "mixed"
+            ]
+          },
+          {
+            "id": "housing",
+            "name": "Housing Development",
+            "lead": "Bangkok Place",
+            "members": 35,
+            "channels": [
+              "affordable",
+              "high_density",
+              "sustainable"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "green",
+        "name": "Green Spaces",
+        "budget": 3400000,
+        "head": "Osaka Street",
+        "teams": [
+          {
+            "id": "parks",
+            "name": "Parks & Recreation",
+            "lead": "Hanoi Circle",
+            "members": 40,
+            "channels": [
+              "urban_parks",
+              "greenways",
+              "plazas"
+            ]
+          },
+          {
+            "id": "urban_forest",
+            "name": "Urban Forestry",
+            "lead": "Manila Terrace",
+            "members": 45,
+            "channels": [
+              "street_trees",
+              "canopy",
+              "native_species"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "smart",
+        "name": "Smart City Tech",
+        "budget": 5800000,
+        "head": "Seoul Lane",
+        "teams": [
+          {
+            "id": "iot",
+            "name": "IoT Infrastructure",
+            "lead": "Jakarta Plaza",
+            "members": 50,
+            "channels": [
+              "sensors",
+              "networks",
+              "platforms"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

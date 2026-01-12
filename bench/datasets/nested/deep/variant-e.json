@@ -1,0 +1,306 @@
+{
+  "organization": {
+    "name": "Stellar Initiative",
+    "founded": 2014,
+    "headquarters": "Bangalore, India",
+    "departments": [
+      {
+        "id": "propulsion",
+        "name": "Propulsion Systems",
+        "budget": 12000000,
+        "head": "Nova Drift",
+        "teams": [
+          {
+            "id": "chemical",
+            "name": "Chemical Propulsion",
+            "lead": "Neutron Transit",
+            "members": [
+              {
+                "id": 1001,
+                "name": "Gluon Instant",
+                "role": "Mission Specialist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "orbital_mechanics",
+                    "proficiency": "candidate",
+                    "years": 3
+                  },
+                  {
+                    "name": "trajectory_planning",
+                    "proficiency": "trainee",
+                    "years": 2
+                  },
+                  {
+                    "name": "rendezvous_ops",
+                    "proficiency": "certified",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1002,
+                "name": "Meson Moment",
+                "role": "Flight Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "propulsion_systems",
+                    "proficiency": "trainee",
+                    "years": 5
+                  },
+                  {
+                    "name": "fuel_management",
+                    "proficiency": "certified",
+                    "years": 4
+                  },
+                  {
+                    "name": "thrust_vectoring",
+                    "proficiency": "veteran",
+                    "years": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ion",
+            "name": "Ion Propulsion",
+            "lead": "Proton Eclipse",
+            "members": [
+              {
+                "id": 1003,
+                "name": "Meson Moment",
+                "role": "Mission Specialist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "propulsion_systems",
+                    "proficiency": "candidate",
+                    "years": 3
+                  },
+                  {
+                    "name": "fuel_management",
+                    "proficiency": "trainee",
+                    "years": 2
+                  },
+                  {
+                    "name": "thrust_vectoring",
+                    "proficiency": "certified",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1004,
+                "name": "Baryon Second",
+                "role": "Flight Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "life_support_maintenance",
+                    "proficiency": "trainee",
+                    "years": 5
+                  },
+                  {
+                    "name": "eva_operations",
+                    "proficiency": "certified",
+                    "years": 4
+                  },
+                  {
+                    "name": "emergency_protocols",
+                    "proficiency": "veteran",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1005,
+                "name": "Hadron Minute",
+                "role": "Systems Analyst",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "telemetry_analysis",
+                    "proficiency": "certified",
+                    "years": 7
+                  },
+                  {
+                    "name": "data_processing",
+                    "proficiency": "veteran",
+                    "years": 6
+                  },
+                  {
+                    "name": "mission_planning",
+                    "proficiency": "commander",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "navigation",
+        "name": "Navigation & Guidance",
+        "budget": 7500000,
+        "head": "Nebula Shift",
+        "teams": [
+          {
+            "id": "orbital",
+            "name": "Orbital Mechanics",
+            "lead": "Photon Occult",
+            "members": [
+              {
+                "id": 1006,
+                "name": "Baryon Second",
+                "role": "Mission Specialist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "life_support_maintenance",
+                    "proficiency": "candidate",
+                    "years": 3
+                  },
+                  {
+                    "name": "eva_operations",
+                    "proficiency": "trainee",
+                    "years": 2
+                  },
+                  {
+                    "name": "emergency_protocols",
+                    "proficiency": "certified",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1007,
+                "name": "Hadron Minute",
+                "role": "Flight Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "telemetry_analysis",
+                    "proficiency": "trainee",
+                    "years": 5
+                  },
+                  {
+                    "name": "data_processing",
+                    "proficiency": "certified",
+                    "years": 4
+                  },
+                  {
+                    "name": "mission_planning",
+                    "proficiency": "veteran",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1008,
+                "name": "Lepton Hour",
+                "role": "Systems Analyst",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "scientific_instrumentation",
+                    "proficiency": "certified",
+                    "years": 7
+                  },
+                  {
+                    "name": "experiment_design",
+                    "proficiency": "veteran",
+                    "years": 6
+                  },
+                  {
+                    "name": "sample_analysis",
+                    "proficiency": "commander",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "comms",
+            "name": "Deep Space Comms",
+            "lead": "Electron Phase",
+            "members": [
+              {
+                "id": 1009,
+                "name": "Hadron Minute",
+                "role": "Mission Specialist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "telemetry_analysis",
+                    "proficiency": "candidate",
+                    "years": 3
+                  },
+                  {
+                    "name": "data_processing",
+                    "proficiency": "trainee",
+                    "years": 2
+                  },
+                  {
+                    "name": "mission_planning",
+                    "proficiency": "certified",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1010,
+                "name": "Lepton Hour",
+                "role": "Flight Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "scientific_instrumentation",
+                    "proficiency": "trainee",
+                    "years": 5
+                  },
+                  {
+                    "name": "experiment_design",
+                    "proficiency": "certified",
+                    "years": 4
+                  },
+                  {
+                    "name": "sample_analysis",
+                    "proficiency": "veteran",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1011,
+                "name": "Fermion Day",
+                "role": "Systems Analyst",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "orbital_mechanics",
+                    "proficiency": "certified",
+                    "years": 7
+                  },
+                  {
+                    "name": "trajectory_planning",
+                    "proficiency": "veteran",
+                    "years": 6
+                  },
+                  {
+                    "name": "rendezvous_ops",
+                    "proficiency": "commander",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

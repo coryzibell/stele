@@ -1,0 +1,119 @@
+organization:
+  name: Wildlife Reserve
+  founded: 2012
+  headquarters: Costa Rica
+  departments[2]:
+    - id: avian
+      name: Avian Division
+      budget: 3800000
+      head: Falcon Paw
+      teams[2]:
+        - id: raptor
+          name: Raptor Research
+          lead: Kite Horn
+          members[2]:
+            - id: 1001
+              name: Wren Bristle
+              role: Field Researcher
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                tracking,trainee,3
+                observation,field_assistant,2
+                documentation,researcher,1
+            - id: 1002
+              name: Robin Fur
+              role: Behavioral Analyst
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                tranquilization,field_assistant,5
+                tagging,researcher,4
+                sampling,senior_researcher,3
+        - id: songbird
+          name: Songbird Study
+          lead: Harrier Antler
+          members[3]:
+            - id: 1003
+              name: Robin Fur
+              role: Field Researcher
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                tranquilization,trainee,3
+                tagging,field_assistant,2
+                sampling,researcher,1
+            - id: 1004
+              name: Thrush Pelt
+              role: Behavioral Analyst
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                habitat_assessment,field_assistant,5
+                population_modeling,researcher,4
+                genetic_analysis,senior_researcher,3
+            - id: 1005
+              name: Warbler Hide
+              role: Conservation Lead
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                behavioral_coding,researcher,7
+                vocalization_analysis,senior_researcher,6
+                movement_patterns,principal_investigator,5
+    - id: mammal
+      name: Mammal Studies
+      budget: 5500000
+      head: Hawk Claw
+      teams[2]:
+        - id: predator
+          name: Predator Tracking
+          lead: Buzzard Tusk
+          members[3]:
+            - id: 1006
+              name: Thrush Pelt
+              role: Field Researcher
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                habitat_assessment,trainee,3
+                population_modeling,field_assistant,2
+                genetic_analysis,researcher,1
+            - id: 1007
+              name: Warbler Hide
+              role: Behavioral Analyst
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                behavioral_coding,field_assistant,5
+                vocalization_analysis,researcher,4
+                movement_patterns,senior_researcher,3
+            - id: 1008
+              name: Swift Coat
+              role: Conservation Lead
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                conservation_planning,researcher,7
+                habitat_restoration,senior_researcher,6
+                species_protection,principal_investigator,5
+        - id: ungulate
+          name: Ungulate Research
+          lead: Owl Fang
+          members[3]:
+            - id: 1009
+              name: Warbler Hide
+              role: Field Researcher
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                behavioral_coding,trainee,3
+                vocalization_analysis,field_assistant,2
+                movement_patterns,researcher,1
+            - id: 1010
+              name: Swift Coat
+              role: Behavioral Analyst
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                conservation_planning,field_assistant,5
+                habitat_restoration,researcher,4
+                species_protection,senior_researcher,3
+            - id: 1011
+              name: Swallow Mane
+              role: Conservation Lead
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                tracking,researcher,7
+                observation,senior_researcher,6
+                documentation,principal_investigator,5

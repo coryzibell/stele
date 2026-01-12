@@ -1,0 +1,119 @@
+organization:
+  name: Metropolitan Collective
+  founded: 2013
+  headquarters: "Seoul, South Korea"
+  departments[2]:
+    - id: transit
+      name: Transit Systems
+      budget: 8500000
+      head: Tokyo Avenue
+      teams[2]:
+        - id: rail
+          name: Rail Network
+          lead: Beijing Road
+          members[2]:
+            - id: 1001
+              name: Sydney Garden
+              role: Urban Planner
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                gis_mapping,junior,3
+                traffic_modeling,associate,2
+                zoning_analysis,senior,1
+            - id: 1002
+              name: Melbourne Grove
+              role: Transit Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                stakeholder_engagement,associate,5
+                public_consultation,senior,4
+                community_outreach,principal,3
+        - id: bus
+          name: Bus Operations
+          lead: Shanghai Drive
+          members[3]:
+            - id: 1003
+              name: Melbourne Grove
+              role: Urban Planner
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                stakeholder_engagement,junior,3
+                public_consultation,associate,2
+                community_outreach,senior,1
+            - id: 1004
+              name: Auckland Meadow
+              role: Transit Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                project_management,associate,5
+                budget_planning,senior,4
+                timeline_coordination,principal,3
+            - id: 1005
+              name: Wellington Field
+              role: Policy Analyst
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                sustainability_assessment,senior,7
+                environmental_review,principal,6
+                impact_analysis,director,5
+    - id: planning
+      name: Urban Planning
+      budget: 6200000
+      head: Kyoto Boulevard
+      teams[2]:
+        - id: zoning
+          name: Zoning & Land Use
+          lead: Mumbai Way
+          members[3]:
+            - id: 1006
+              name: Auckland Meadow
+              role: Urban Planner
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                project_management,junior,3
+                budget_planning,associate,2
+                timeline_coordination,senior,1
+            - id: 1007
+              name: Wellington Field
+              role: Transit Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                sustainability_assessment,associate,5
+                environmental_review,senior,4
+                impact_analysis,principal,3
+            - id: 1008
+              name: Perth Hill
+              role: Policy Analyst
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                data_analytics,senior,7
+                smart_city_platforms,principal,6
+                iot_integration,director,5
+        - id: housing
+          name: Housing Development
+          lead: Delhi Court
+          members[3]:
+            - id: 1009
+              name: Wellington Field
+              role: Urban Planner
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                sustainability_assessment,junior,3
+                environmental_review,associate,2
+                impact_analysis,senior,1
+            - id: 1010
+              name: Perth Hill
+              role: Transit Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                data_analytics,associate,5
+                smart_city_platforms,senior,4
+                iot_integration,principal,3
+            - id: 1011
+              name: Brisbane Ridge
+              role: Policy Analyst
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                gis_mapping,senior,7
+                traffic_modeling,principal,6
+                zoning_analysis,director,5

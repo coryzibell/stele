@@ -1,0 +1,11 @@
+users[10]{id,name,email,role,active}:
+  1,falcon_paw,falcon.paw@animalnet.org,admin,true
+  2,hawk_claw,hawk.claw@animalnet.org,user,true
+  3,eagle_talon,eagle.talon@animalnet.org,moderator,true
+  4,osprey_hoof,osprey.hoof@animalnet.org,user,false
+  5,kite_horn,kite.horn@animalnet.org,admin,true
+  6,harrier_antler,harrier.antler@animalnet.org,user,true
+  7,buzzard_tusk,buzzard.tusk@animalnet.org,moderator,false
+  8,owl_fang,owl.fang@animalnet.org,user,true
+  9,raven_tooth,raven.tooth@animalnet.org,admin,true
+  10,crow_beak,crow.beak@animalnet.org,user,false

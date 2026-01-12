@@ -1,0 +1,306 @@
+{
+  "organization": {
+    "name": "Metropolitan Collective",
+    "founded": 2013,
+    "headquarters": "Seoul, South Korea",
+    "departments": [
+      {
+        "id": "transit",
+        "name": "Transit Systems",
+        "budget": 8500000,
+        "head": "Tokyo Avenue",
+        "teams": [
+          {
+            "id": "rail",
+            "name": "Rail Network",
+            "lead": "Beijing Road",
+            "members": [
+              {
+                "id": 1001,
+                "name": "Sydney Garden",
+                "role": "Urban Planner",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "gis_mapping",
+                    "proficiency": "junior",
+                    "years": 3
+                  },
+                  {
+                    "name": "traffic_modeling",
+                    "proficiency": "associate",
+                    "years": 2
+                  },
+                  {
+                    "name": "zoning_analysis",
+                    "proficiency": "senior",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1002,
+                "name": "Melbourne Grove",
+                "role": "Transit Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "stakeholder_engagement",
+                    "proficiency": "associate",
+                    "years": 5
+                  },
+                  {
+                    "name": "public_consultation",
+                    "proficiency": "senior",
+                    "years": 4
+                  },
+                  {
+                    "name": "community_outreach",
+                    "proficiency": "principal",
+                    "years": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bus",
+            "name": "Bus Operations",
+            "lead": "Shanghai Drive",
+            "members": [
+              {
+                "id": 1003,
+                "name": "Melbourne Grove",
+                "role": "Urban Planner",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "stakeholder_engagement",
+                    "proficiency": "junior",
+                    "years": 3
+                  },
+                  {
+                    "name": "public_consultation",
+                    "proficiency": "associate",
+                    "years": 2
+                  },
+                  {
+                    "name": "community_outreach",
+                    "proficiency": "senior",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1004,
+                "name": "Auckland Meadow",
+                "role": "Transit Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "project_management",
+                    "proficiency": "associate",
+                    "years": 5
+                  },
+                  {
+                    "name": "budget_planning",
+                    "proficiency": "senior",
+                    "years": 4
+                  },
+                  {
+                    "name": "timeline_coordination",
+                    "proficiency": "principal",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1005,
+                "name": "Wellington Field",
+                "role": "Policy Analyst",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "sustainability_assessment",
+                    "proficiency": "senior",
+                    "years": 7
+                  },
+                  {
+                    "name": "environmental_review",
+                    "proficiency": "principal",
+                    "years": 6
+                  },
+                  {
+                    "name": "impact_analysis",
+                    "proficiency": "director",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "planning",
+        "name": "Urban Planning",
+        "budget": 6200000,
+        "head": "Kyoto Boulevard",
+        "teams": [
+          {
+            "id": "zoning",
+            "name": "Zoning & Land Use",
+            "lead": "Mumbai Way",
+            "members": [
+              {
+                "id": 1006,
+                "name": "Auckland Meadow",
+                "role": "Urban Planner",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "project_management",
+                    "proficiency": "junior",
+                    "years": 3
+                  },
+                  {
+                    "name": "budget_planning",
+                    "proficiency": "associate",
+                    "years": 2
+                  },
+                  {
+                    "name": "timeline_coordination",
+                    "proficiency": "senior",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1007,
+                "name": "Wellington Field",
+                "role": "Transit Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "sustainability_assessment",
+                    "proficiency": "associate",
+                    "years": 5
+                  },
+                  {
+                    "name": "environmental_review",
+                    "proficiency": "senior",
+                    "years": 4
+                  },
+                  {
+                    "name": "impact_analysis",
+                    "proficiency": "principal",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1008,
+                "name": "Perth Hill",
+                "role": "Policy Analyst",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "data_analytics",
+                    "proficiency": "senior",
+                    "years": 7
+                  },
+                  {
+                    "name": "smart_city_platforms",
+                    "proficiency": "principal",
+                    "years": 6
+                  },
+                  {
+                    "name": "iot_integration",
+                    "proficiency": "director",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "housing",
+            "name": "Housing Development",
+            "lead": "Delhi Court",
+            "members": [
+              {
+                "id": 1009,
+                "name": "Wellington Field",
+                "role": "Urban Planner",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "sustainability_assessment",
+                    "proficiency": "junior",
+                    "years": 3
+                  },
+                  {
+                    "name": "environmental_review",
+                    "proficiency": "associate",
+                    "years": 2
+                  },
+                  {
+                    "name": "impact_analysis",
+                    "proficiency": "senior",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1010,
+                "name": "Perth Hill",
+                "role": "Transit Engineer",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "data_analytics",
+                    "proficiency": "associate",
+                    "years": 5
+                  },
+                  {
+                    "name": "smart_city_platforms",
+                    "proficiency": "senior",
+                    "years": 4
+                  },
+                  {
+                    "name": "iot_integration",
+                    "proficiency": "principal",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1011,
+                "name": "Brisbane Ridge",
+                "role": "Policy Analyst",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "gis_mapping",
+                    "proficiency": "senior",
+                    "years": 7
+                  },
+                  {
+                    "name": "traffic_modeling",
+                    "proficiency": "principal",
+                    "years": 6
+                  },
+                  {
+                    "name": "zoning_analysis",
+                    "proficiency": "director",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

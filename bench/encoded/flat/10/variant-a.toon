@@ -1,0 +1,11 @@
+users[10]{id,name,email,role,active}:
+  1,pepper_crumble,pepper.crumble@foodmail.io,admin,true
+  2,ginger_tart,ginger.tart@foodmail.io,user,true
+  3,basil_crisp,basil.crisp@foodmail.io,moderator,true
+  4,sage_compote,sage.compote@foodmail.io,user,false
+  5,olive_reduction,olive.reduction@foodmail.io,admin,true
+  6,clove_glaze,clove.glaze@foodmail.io,user,true
+  7,maple_coulis,maple.coulis@foodmail.io,moderator,false
+  8,hazel_puree,hazel.puree@foodmail.io,user,true
+  9,honey_preserve,honey.preserve@foodmail.io,admin,true
+  10,cinnamon_marmalade,cinnamon.marmalade@foodmail.io,user,false

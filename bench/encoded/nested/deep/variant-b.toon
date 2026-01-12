@@ -1,0 +1,119 @@
+organization:
+  name: Chromatic Palette
+  founded: 2011
+  headquarters: "Paris, France"
+  departments[2]:
+    - id: warm
+      name: Warm Tones Division
+      budget: 4200000
+      head: Crimson Shade
+      teams[2]:
+        - id: red
+          name: Red Family
+          lead: Saffron Gradient
+          members[2]:
+            - id: 1001
+              name: Jade Patina
+              role: Color Theorist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                color_mixing,student,3
+                saturation_control,practitioner,2
+                value_mapping,specialist,1
+            - id: 1002
+              name: Teal Finish
+              role: Pigment Specialist
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                gradient_design,practitioner,5
+                spectrum_analysis,specialist,4
+                prism_work,master,3
+        - id: orange
+          name: Orange Spectrum
+          lead: Mustard Spectrum
+          members[3]:
+            - id: 1003
+              name: Teal Finish
+              role: Color Theorist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                gradient_design,student,3
+                spectrum_analysis,practitioner,2
+                prism_work,specialist,1
+            - id: 1004
+              name: Cyan Sheen
+              role: Pigment Specialist
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                pigment_chemistry,practitioner,5
+                dye_formulation,specialist,4
+                stain_application,master,3
+            - id: 1005
+              name: Turquoise Luster
+              role: Palette Designer
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                digital_color,specialist,7
+                print_calibration,master,6
+                screen_matching,grandmaster,5
+    - id: cool
+      name: Cool Spectrum
+      budget: 4800000
+      head: Scarlet Tint
+      teams[2]:
+        - id: blue
+          name: Blue Depths
+          lead: Lemon Prism
+          members[3]:
+            - id: 1006
+              name: Cyan Sheen
+              role: Color Theorist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                pigment_chemistry,student,3
+                dye_formulation,practitioner,2
+                stain_application,specialist,1
+            - id: 1007
+              name: Turquoise Luster
+              role: Pigment Specialist
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                digital_color,practitioner,5
+                print_calibration,specialist,4
+                screen_matching,master,3
+            - id: 1008
+              name: Aqua Gleam
+              role: Palette Designer
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                lighting_adjustment,specialist,7
+                reflection_control,master,6
+                absorption_analysis,grandmaster,5
+        - id: green
+          name: Green Range
+          lead: Canary Palette
+          members[3]:
+            - id: 1009
+              name: Turquoise Luster
+              role: Color Theorist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                digital_color,student,3
+                print_calibration,practitioner,2
+                screen_matching,specialist,1
+            - id: 1010
+              name: Aqua Gleam
+              role: Pigment Specialist
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                lighting_adjustment,practitioner,5
+                reflection_control,specialist,4
+                absorption_analysis,master,3
+            - id: 1011
+              name: Azure Shimmer
+              role: Palette Designer
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                color_mixing,specialist,7
+                saturation_control,master,6
+                value_mapping,grandmaster,5

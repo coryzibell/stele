@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "crimson_shade",
+      "email": "crimson.shade@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "scarlet_tint",
+      "email": "scarlet.tint@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "ruby_tone",
+      "email": "ruby.tone@colorverse.net",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "garnet_hue",
+      "email": "garnet.hue@colorverse.net",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "vermillion_saturation",
+      "email": "vermillion.saturation@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "coral_value",
+      "email": "coral.value@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "salmon_chroma",
+      "email": "salmon.chroma@colorverse.net",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "peach_gradient",
+      "email": "peach.gradient@colorverse.net",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "apricot_spectrum",
+      "email": "apricot.spectrum@colorverse.net",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "tangerine_prism",
+      "email": "tangerine.prism@colorverse.net",
+      "role": "user",
+      "active": false
+    }
+  ]
+}

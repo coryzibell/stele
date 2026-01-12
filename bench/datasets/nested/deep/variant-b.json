@@ -1,0 +1,306 @@
+{
+  "organization": {
+    "name": "Chromatic Palette",
+    "founded": 2011,
+    "headquarters": "Paris, France",
+    "departments": [
+      {
+        "id": "warm",
+        "name": "Warm Tones Division",
+        "budget": 4200000,
+        "head": "Crimson Shade",
+        "teams": [
+          {
+            "id": "red",
+            "name": "Red Family",
+            "lead": "Saffron Gradient",
+            "members": [
+              {
+                "id": 1001,
+                "name": "Jade Patina",
+                "role": "Color Theorist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "color_mixing",
+                    "proficiency": "student",
+                    "years": 3
+                  },
+                  {
+                    "name": "saturation_control",
+                    "proficiency": "practitioner",
+                    "years": 2
+                  },
+                  {
+                    "name": "value_mapping",
+                    "proficiency": "specialist",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1002,
+                "name": "Teal Finish",
+                "role": "Pigment Specialist",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "gradient_design",
+                    "proficiency": "practitioner",
+                    "years": 5
+                  },
+                  {
+                    "name": "spectrum_analysis",
+                    "proficiency": "specialist",
+                    "years": 4
+                  },
+                  {
+                    "name": "prism_work",
+                    "proficiency": "master",
+                    "years": 3
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "orange",
+            "name": "Orange Spectrum",
+            "lead": "Mustard Spectrum",
+            "members": [
+              {
+                "id": 1003,
+                "name": "Teal Finish",
+                "role": "Color Theorist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "gradient_design",
+                    "proficiency": "student",
+                    "years": 3
+                  },
+                  {
+                    "name": "spectrum_analysis",
+                    "proficiency": "practitioner",
+                    "years": 2
+                  },
+                  {
+                    "name": "prism_work",
+                    "proficiency": "specialist",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1004,
+                "name": "Cyan Sheen",
+                "role": "Pigment Specialist",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "pigment_chemistry",
+                    "proficiency": "practitioner",
+                    "years": 5
+                  },
+                  {
+                    "name": "dye_formulation",
+                    "proficiency": "specialist",
+                    "years": 4
+                  },
+                  {
+                    "name": "stain_application",
+                    "proficiency": "master",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1005,
+                "name": "Turquoise Luster",
+                "role": "Palette Designer",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "digital_color",
+                    "proficiency": "specialist",
+                    "years": 7
+                  },
+                  {
+                    "name": "print_calibration",
+                    "proficiency": "master",
+                    "years": 6
+                  },
+                  {
+                    "name": "screen_matching",
+                    "proficiency": "grandmaster",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cool",
+        "name": "Cool Spectrum",
+        "budget": 4800000,
+        "head": "Scarlet Tint",
+        "teams": [
+          {
+            "id": "blue",
+            "name": "Blue Depths",
+            "lead": "Lemon Prism",
+            "members": [
+              {
+                "id": 1006,
+                "name": "Cyan Sheen",
+                "role": "Color Theorist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "pigment_chemistry",
+                    "proficiency": "student",
+                    "years": 3
+                  },
+                  {
+                    "name": "dye_formulation",
+                    "proficiency": "practitioner",
+                    "years": 2
+                  },
+                  {
+                    "name": "stain_application",
+                    "proficiency": "specialist",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1007,
+                "name": "Turquoise Luster",
+                "role": "Pigment Specialist",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "digital_color",
+                    "proficiency": "practitioner",
+                    "years": 5
+                  },
+                  {
+                    "name": "print_calibration",
+                    "proficiency": "specialist",
+                    "years": 4
+                  },
+                  {
+                    "name": "screen_matching",
+                    "proficiency": "master",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1008,
+                "name": "Aqua Gleam",
+                "role": "Palette Designer",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "lighting_adjustment",
+                    "proficiency": "specialist",
+                    "years": 7
+                  },
+                  {
+                    "name": "reflection_control",
+                    "proficiency": "master",
+                    "years": 6
+                  },
+                  {
+                    "name": "absorption_analysis",
+                    "proficiency": "grandmaster",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "green",
+            "name": "Green Range",
+            "lead": "Canary Palette",
+            "members": [
+              {
+                "id": 1009,
+                "name": "Turquoise Luster",
+                "role": "Color Theorist",
+                "years_experience": 3,
+                "skills": [
+                  {
+                    "name": "digital_color",
+                    "proficiency": "student",
+                    "years": 3
+                  },
+                  {
+                    "name": "print_calibration",
+                    "proficiency": "practitioner",
+                    "years": 2
+                  },
+                  {
+                    "name": "screen_matching",
+                    "proficiency": "specialist",
+                    "years": 1
+                  }
+                ]
+              },
+              {
+                "id": 1010,
+                "name": "Aqua Gleam",
+                "role": "Pigment Specialist",
+                "years_experience": 5,
+                "skills": [
+                  {
+                    "name": "lighting_adjustment",
+                    "proficiency": "practitioner",
+                    "years": 5
+                  },
+                  {
+                    "name": "reflection_control",
+                    "proficiency": "specialist",
+                    "years": 4
+                  },
+                  {
+                    "name": "absorption_analysis",
+                    "proficiency": "master",
+                    "years": 3
+                  }
+                ]
+              },
+              {
+                "id": 1011,
+                "name": "Azure Shimmer",
+                "role": "Palette Designer",
+                "years_experience": 7,
+                "skills": [
+                  {
+                    "name": "color_mixing",
+                    "proficiency": "specialist",
+                    "years": 7
+                  },
+                  {
+                    "name": "saturation_control",
+                    "proficiency": "master",
+                    "years": 6
+                  },
+                  {
+                    "name": "value_mapping",
+                    "proficiency": "grandmaster",
+                    "years": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

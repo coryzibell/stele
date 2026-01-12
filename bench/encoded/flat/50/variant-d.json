@@ -1,0 +1,354 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "tokyo_avenue",
+      "email": "tokyo.avenue@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "kyoto_boulevard",
+      "email": "kyoto.boulevard@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "osaka_street",
+      "email": "osaka.street@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "seoul_lane",
+      "email": "seoul.lane@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "beijing_road",
+      "email": "beijing.road@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "shanghai_drive",
+      "email": "shanghai.drive@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "mumbai_way",
+      "email": "mumbai.way@cityscape.co",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "delhi_court",
+      "email": "delhi.court@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "bangkok_place",
+      "email": "bangkok.place@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "hanoi_circle",
+      "email": "hanoi.circle@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 11,
+      "name": "manila_terrace",
+      "email": "manila.terrace@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 12,
+      "name": "jakarta_plaza",
+      "email": "jakarta.plaza@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 13,
+      "name": "singapore_square",
+      "email": "singapore.square@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 14,
+      "name": "kuala_park",
+      "email": "kuala.park@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 15,
+      "name": "sydney_garden",
+      "email": "sydney.garden@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 16,
+      "name": "melbourne_grove",
+      "email": "melbourne.grove@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 17,
+      "name": "auckland_meadow",
+      "email": "auckland.meadow@cityscape.co",
+      "role": "admin",
+      "active": false
+    },
+    {
+      "id": 18,
+      "name": "wellington_field",
+      "email": "wellington.field@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 19,
+      "name": "perth_hill",
+      "email": "perth.hill@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 20,
+      "name": "brisbane_ridge",
+      "email": "brisbane.ridge@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 21,
+      "name": "cairo_valley",
+      "email": "cairo.valley@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 22,
+      "name": "lagos_canyon",
+      "email": "lagos.canyon@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 23,
+      "name": "nairobi_cliff",
+      "email": "nairobi.cliff@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 24,
+      "name": "cape_bluff",
+      "email": "cape.bluff@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 25,
+      "name": "casablanca_point",
+      "email": "casablanca.point@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 26,
+      "name": "tunis_cape",
+      "email": "tunis.cape@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 27,
+      "name": "algiers_bay",
+      "email": "algiers.bay@cityscape.co",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 28,
+      "name": "dakar_cove",
+      "email": "dakar.cove@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 29,
+      "name": "accra_harbor",
+      "email": "accra.harbor@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 30,
+      "name": "addis_port",
+      "email": "addis.port@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 31,
+      "name": "london_pier",
+      "email": "london.pier@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 32,
+      "name": "paris_dock",
+      "email": "paris.dock@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 33,
+      "name": "berlin_wharf",
+      "email": "berlin.wharf@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 34,
+      "name": "rome_quay",
+      "email": "rome.quay@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 35,
+      "name": "madrid_bridge",
+      "email": "madrid.bridge@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 36,
+      "name": "barcelona_crossing",
+      "email": "barcelona.crossing@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 37,
+      "name": "lisbon_junction",
+      "email": "lisbon.junction@cityscape.co",
+      "role": "admin",
+      "active": false
+    },
+    {
+      "id": 38,
+      "name": "amsterdam_station",
+      "email": "amsterdam.station@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 39,
+      "name": "brussels_terminal",
+      "email": "brussels.terminal@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 40,
+      "name": "vienna_depot",
+      "email": "vienna.depot@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 41,
+      "name": "prague_hub",
+      "email": "prague.hub@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 42,
+      "name": "budapest_center",
+      "email": "budapest.center@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 43,
+      "name": "warsaw_complex",
+      "email": "warsaw.complex@cityscape.co",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 44,
+      "name": "stockholm_tower",
+      "email": "stockholm.tower@cityscape.co",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 45,
+      "name": "oslo_building",
+      "email": "oslo.building@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 46,
+      "name": "copenhagen_block",
+      "email": "copenhagen.block@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 47,
+      "name": "helsinki_quarter",
+      "email": "helsinki.quarter@cityscape.co",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 48,
+      "name": "moscow_district",
+      "email": "moscow.district@cityscape.co",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 49,
+      "name": "kiev_ward",
+      "email": "kiev.ward@cityscape.co",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 50,
+      "name": "athens_borough",
+      "email": "athens.borough@cityscape.co",
+      "role": "user",
+      "active": false
+    }
+  ]
+}

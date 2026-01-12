@@ -1,0 +1,36 @@
+{
+  "organization": {
+    "name": "Culinary Collective",
+    "founded": 2010,
+    "departments": [
+      {
+        "id": "bakery",
+        "name": "Bakery Division",
+        "budget": 4500000,
+        "head": "Pepper Crumble",
+        "employee_count": 25
+      },
+      {
+        "id": "savory",
+        "name": "Savory Arts",
+        "budget": 5200000,
+        "head": "Ginger Tart",
+        "employee_count": 55
+      },
+      {
+        "id": "pastry",
+        "name": "Pastry & Desserts",
+        "budget": 3800000,
+        "head": "Basil Crisp",
+        "employee_count": 85
+      },
+      {
+        "id": "ferment",
+        "name": "Fermentation Lab",
+        "budget": 2100000,
+        "head": "Sage Compote",
+        "employee_count": 115
+      }
+    ]
+  }
+}

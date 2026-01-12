@@ -1,0 +1,119 @@
+organization:
+  name: Stellar Initiative
+  founded: 2014
+  headquarters: "Bangalore, India"
+  departments[2]:
+    - id: propulsion
+      name: Propulsion Systems
+      budget: 12000000
+      head: Nova Drift
+      teams[2]:
+        - id: chemical
+          name: Chemical Propulsion
+          lead: Neutron Transit
+          members[2]:
+            - id: 1001
+              name: Gluon Instant
+              role: Mission Specialist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                orbital_mechanics,candidate,3
+                trajectory_planning,trainee,2
+                rendezvous_ops,certified,1
+            - id: 1002
+              name: Meson Moment
+              role: Flight Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                propulsion_systems,trainee,5
+                fuel_management,certified,4
+                thrust_vectoring,veteran,3
+        - id: ion
+          name: Ion Propulsion
+          lead: Proton Eclipse
+          members[3]:
+            - id: 1003
+              name: Meson Moment
+              role: Mission Specialist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                propulsion_systems,candidate,3
+                fuel_management,trainee,2
+                thrust_vectoring,certified,1
+            - id: 1004
+              name: Baryon Second
+              role: Flight Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                life_support_maintenance,trainee,5
+                eva_operations,certified,4
+                emergency_protocols,veteran,3
+            - id: 1005
+              name: Hadron Minute
+              role: Systems Analyst
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                telemetry_analysis,certified,7
+                data_processing,veteran,6
+                mission_planning,commander,5
+    - id: navigation
+      name: Navigation & Guidance
+      budget: 7500000
+      head: Nebula Shift
+      teams[2]:
+        - id: orbital
+          name: Orbital Mechanics
+          lead: Photon Occult
+          members[3]:
+            - id: 1006
+              name: Baryon Second
+              role: Mission Specialist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                life_support_maintenance,candidate,3
+                eva_operations,trainee,2
+                emergency_protocols,certified,1
+            - id: 1007
+              name: Hadron Minute
+              role: Flight Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                telemetry_analysis,trainee,5
+                data_processing,certified,4
+                mission_planning,veteran,3
+            - id: 1008
+              name: Lepton Hour
+              role: Systems Analyst
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                scientific_instrumentation,certified,7
+                experiment_design,veteran,6
+                sample_analysis,commander,5
+        - id: comms
+          name: Deep Space Comms
+          lead: Electron Phase
+          members[3]:
+            - id: 1009
+              name: Hadron Minute
+              role: Mission Specialist
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                telemetry_analysis,candidate,3
+                data_processing,trainee,2
+                mission_planning,certified,1
+            - id: 1010
+              name: Lepton Hour
+              role: Flight Engineer
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                scientific_instrumentation,trainee,5
+                experiment_design,certified,4
+                sample_analysis,veteran,3
+            - id: 1011
+              name: Fermion Day
+              role: Systems Analyst
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                orbital_mechanics,certified,7
+                trajectory_planning,veteran,6
+                rendezvous_ops,commander,5

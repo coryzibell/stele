@@ -1,0 +1,11 @@
+users[10]{id,name,email,role,active}:
+  1,nova_drift,nova.drift@cosmicmail.space,admin,true
+  2,nebula_shift,nebula.shift@cosmicmail.space,user,true
+  3,pulsar_spin,pulsar.spin@cosmicmail.space,moderator,true
+  4,quasar_orbit,quasar.orbit@cosmicmail.space,user,false
+  5,neutron_transit,neutron.transit@cosmicmail.space,admin,true
+  6,proton_eclipse,proton.eclipse@cosmicmail.space,user,true
+  7,photon_occult,photon.occult@cosmicmail.space,moderator,false
+  8,electron_phase,electron.phase@cosmicmail.space,user,true
+  9,positron_cycle,positron.cycle@cosmicmail.space,admin,true
+  10,neutrino_period,neutrino.period@cosmicmail.space,user,false

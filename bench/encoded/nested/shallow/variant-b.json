@@ -1,0 +1,36 @@
+{
+  "organization": {
+    "name": "Chromatic Studios",
+    "founded": 2011,
+    "departments": [
+      {
+        "id": "warm",
+        "name": "Warm Tones Division",
+        "budget": 4200000,
+        "head": "Crimson Shade",
+        "employee_count": 25
+      },
+      {
+        "id": "cool",
+        "name": "Cool Spectrum",
+        "budget": 4800000,
+        "head": "Scarlet Tint",
+        "employee_count": 55
+      },
+      {
+        "id": "neutral",
+        "name": "Neutral & Earth",
+        "budget": 2900000,
+        "head": "Ruby Tone",
+        "employee_count": 85
+      },
+      {
+        "id": "vivid",
+        "name": "Vivid & Neon",
+        "budget": 3500000,
+        "head": "Garnet Hue",
+        "employee_count": 115
+      }
+    ]
+  }
+}

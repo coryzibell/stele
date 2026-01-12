@@ -1,0 +1,8 @@
+organization:
+  name: Chromatic Studios
+  founded: 2011
+  departments[4]{id,name,budget,head,employee_count}:
+    warm,Warm Tones Division,4200000,Crimson Shade,25
+    cool,Cool Spectrum,4800000,Scarlet Tint,55
+    neutral,Neutral & Earth,2900000,Ruby Tone,85
+    vivid,Vivid & Neon,3500000,Garnet Hue,115

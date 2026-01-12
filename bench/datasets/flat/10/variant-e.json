@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "nova_drift",
+      "email": "nova.drift@cosmicmail.space",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "nebula_shift",
+      "email": "nebula.shift@cosmicmail.space",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "pulsar_spin",
+      "email": "pulsar.spin@cosmicmail.space",
+      "role": "moderator",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "quasar_orbit",
+      "email": "quasar.orbit@cosmicmail.space",
+      "role": "user",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "neutron_transit",
+      "email": "neutron.transit@cosmicmail.space",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "proton_eclipse",
+      "email": "proton.eclipse@cosmicmail.space",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "photon_occult",
+      "email": "photon.occult@cosmicmail.space",
+      "role": "moderator",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "electron_phase",
+      "email": "electron.phase@cosmicmail.space",
+      "role": "user",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "positron_cycle",
+      "email": "positron.cycle@cosmicmail.space",
+      "role": "admin",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "neutrino_period",
+      "email": "neutrino.period@cosmicmail.space",
+      "role": "user",
+      "active": false
+    }
+  ]
+}

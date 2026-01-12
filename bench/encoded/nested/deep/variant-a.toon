@@ -1,0 +1,119 @@
+organization:
+  name: Culinary Pantry
+  founded: 2010
+  headquarters: "Bordeaux, France"
+  departments[2]:
+    - id: bakery
+      name: Bakery Division
+      budget: 4500000
+      head: Pepper Crumble
+      teams[2]:
+        - id: bread
+          name: Artisan Bread
+          lead: Olive Glaze
+          members[2]:
+            - id: 1001
+              name: Nutmeg Saute
+              role: Sous Chef
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                knife_work,apprentice,3
+                sauteing,commis,2
+                braising,chef_de_partie,1
+            - id: 1002
+              name: Almond Blanch
+              role: Line Cook
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                tempering,commis,5
+                lamination,chef_de_partie,4
+                fermentation,sous_chef,3
+        - id: pastry_bake
+          name: Baked Pastries
+          lead: Clove Puree
+          members[3]:
+            - id: 1003
+              name: Almond Blanch
+              role: Sous Chef
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                tempering,apprentice,3
+                lamination,commis,2
+                fermentation,chef_de_partie,1
+            - id: 1004
+              name: Pecan Poach
+              role: Line Cook
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                emulsification,commis,5
+                reduction,chef_de_partie,4
+                plating,sous_chef,3
+            - id: 1005
+              name: Walnut Simmer
+              role: Pastry Chef
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                butchery,chef_de_partie,7
+                filleting,sous_chef,6
+                curing,executive,5
+    - id: savory
+      name: Savory Arts
+      budget: 5200000
+      head: Ginger Tart
+      teams[2]:
+        - id: grill
+          name: Grill Station
+          lead: Maple Preserve
+          members[3]:
+            - id: 1006
+              name: Pecan Poach
+              role: Sous Chef
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                emulsification,apprentice,3
+                reduction,commis,2
+                plating,chef_de_partie,1
+            - id: 1007
+              name: Walnut Simmer
+              role: Line Cook
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                butchery,commis,5
+                filleting,chef_de_partie,4
+                curing,sous_chef,3
+            - id: 1008
+              name: Cashew Steam
+              role: Pastry Chef
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                baking,chef_de_partie,7
+                proofing,sous_chef,6
+                shaping,executive,5
+        - id: sauce
+          name: Sauce Kitchen
+          lead: Hazel Chutney
+          members[3]:
+            - id: 1009
+              name: Walnut Simmer
+              role: Sous Chef
+              years_experience: 3
+              skills[3]{name,proficiency,years}:
+                butchery,apprentice,3
+                filleting,commis,2
+                curing,chef_de_partie,1
+            - id: 1010
+              name: Cashew Steam
+              role: Line Cook
+              years_experience: 5
+              skills[3]{name,proficiency,years}:
+                baking,commis,5
+                proofing,chef_de_partie,4
+                shaping,sous_chef,3
+            - id: 1011
+              name: Pistachio Grill
+              role: Pastry Chef
+              years_experience: 7
+              skills[3]{name,proficiency,years}:
+                knife_work,chef_de_partie,7
+                sauteing,sous_chef,6
+                braising,executive,5
