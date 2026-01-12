@@ -16,7 +16,7 @@ bench/
 │   └── markdown/     # Questions for markdown datasets
 ├── encoded/          # Stele-encoded versions (generated)
 ├── sessions/         # LLM test sessions (gitignored)
-├── results/          # Test results and analysis
+├── results/          # Test results (per model-dataset JSONL files)
 └── tools/            # Benchmark scripts
 ```
 
@@ -63,6 +63,20 @@ Each dataset has corresponding prompt file with:
 - **Realistic**: Credible schemas and content for research
 - **Varied**: Tests flat, nested, and document structures
 - **Comprehensive**: Edge cases and common patterns
+
+## Results Structure
+
+Results are split into separate JSONL files by model and dataset for efficient context loading:
+
+```
+results/
+├── haiku-flat-10.jsonl      # 5 entries (one per format)
+├── haiku-flat-50.jsonl
+├── opus-nested-deep.jsonl
+└── ...
+```
+
+Each file contains compact single-line JSON entries. Use `tools/split-results.py` to split existing monolithic data.
 
 ## Phase Status
 

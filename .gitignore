@@ -1,0 +1,8 @@
+# Session data (generated during benchmarks)
+bench/sessions/
+
+# Old/contaminated benchmark results
+bench/results/old-cache-contaminated/
+
+# Backup files
+*.bak

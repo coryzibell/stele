@@ -14,6 +14,11 @@
 
 set -euo pipefail
 
+# Disable prompt caching to prevent cache leaking between tests
+# Without this, later tests benefit from earlier tests' cache creation,
+# making format comparisons unreliable (test ordering affects results)
+export DISABLE_PROMPT_CACHING=true
+
 # Colors for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -29,8 +34,18 @@ RESULTS_DIR="$BENCH_DIR/results"
 TOOLS_DIR="$BENCH_DIR/tools"
 SESSIONS_DIR="$BENCH_DIR/sessions"
 
-RESULTS_FILE="$RESULTS_DIR/token-counts.jsonl"
+# Results files are now split by model-dataset (e.g., haiku-flat-10.jsonl)
+# Legacy monolithic file (deprecated):
+LEGACY_RESULTS_FILE="$RESULTS_DIR/token-counts.jsonl"
 LOG_FILE="$RESULTS_DIR/benchmark.log"
+
+# Get the results file for a model-dataset combination
+get_results_file() {
+    local model="$1"
+    local dataset="$2"
+    local dataset_name="${dataset//\//-}"
+    echo "$RESULTS_DIR/${model}-${dataset_name}.jsonl"
+}
 
 # Test parameters
 FORMATS=("json" "stele-ascii" "stele-light" "stele-full" "toon")
@@ -44,9 +59,8 @@ declare -A MODEL_NAMES=(
     ["haiku"]="claude-3-5-haiku-20241022"
 )
 
-# Initialize results file if it doesn't exist
+# Initialize results directory
 mkdir -p "$RESULTS_DIR"
-touch "$RESULTS_FILE"
 
 # === CLAUDE.md HANDLING ===
 # We want raw Claude without Q's identity for accurate benchmarks
@@ -89,11 +103,15 @@ test_completed() {
     local model="$2"
     local dataset="$3"
 
-    if [[ ! -f "$RESULTS_FILE" ]]; then
+    local results_file
+    results_file=$(get_results_file "$model" "$dataset")
+
+    if [[ ! -f "$results_file" ]]; then
         return 1
     fi
 
-    grep -q "\"format\":\"$format\".*\"model\":\"$model\".*\"dataset\":\"$dataset\"" "$RESULTS_FILE" && return 0 || return 1
+    # Check the split file for this model-dataset (handle both compact and pretty JSON)
+    grep -q "\"format\"[[:space:]]*:[[:space:]]*\"$format\"" "$results_file" && return 0 || return 1
 }
 
 # Generate all test combinations
@@ -244,8 +262,12 @@ $questions"
         local output_tokens=$(echo "$json_output" | jq -r '.usage.output_tokens // 0')
         local cache_creation=$(echo "$json_output" | jq -r '.usage.cache_creation_input_tokens // 0')
 
-        # Append to results file
-        echo "$result_json" >> "$RESULTS_FILE"
+        # Get the results file for this model-dataset combination
+        local results_file
+        results_file=$(get_results_file "$model" "$dataset")
+
+        # Append to split results file (compact JSON, one line)
+        echo "$result_json" | jq -c '.' >> "$results_file"
 
         echo -e "${GREEN}✓ Complete (${duration}s) - Input: $input_tokens, Output: $output_tokens, Cache: $cache_creation${NC}"
         log "INFO" "Test $test_id completed successfully in ${duration}s"
@@ -284,7 +306,7 @@ Examples:
   $0 --format stele-ascii --model sonnet         # All sonnet tests with stele-ascii
   $0 --format json --model opus --dataset flat/100  # Single specific test
 
-Results saved to: $RESULTS_FILE
+Results saved to: $RESULTS_DIR/{model}-{dataset}.jsonl (e.g., haiku-flat-10.jsonl)
 Logs saved to: $LOG_FILE
 
 NOTE: CLAUDE.md is temporarily removed during benchmarks for clean token counts,
