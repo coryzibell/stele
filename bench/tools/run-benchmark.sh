@@ -205,73 +205,55 @@ $questions"
     local start_time=$(date +%s)
     local session_file=""
 
-    if claude --model "$model_name" --print --prompt "$full_prompt" > "$session_dir/output.txt" 2>&1; then
+    # Clear any cached session data that might affect token counts
+    rm -rf ~/.claude/projects/*/sessions/* 2>/dev/null || true
+
+    # Run with JSON output format for clean token extraction
+    local json_output
+    if json_output=$(echo "$full_prompt" | claude --model "$model_name" --print --output-format json --no-session-persistence 2>&1); then
         local end_time=$(date +%s)
         local duration=$((end_time - start_time))
 
-        # Find the most recent session file in ~/.claude/projects/
-        session_file=$(find ~/.claude/projects/ -name "*.jsonl" -type f -printf '%T@ %p\n' 2>/dev/null | sort -rn | head -1 | cut -d' ' -f2-)
+        # Save the raw JSON output
+        echo "$json_output" > "$session_dir/output.json"
 
-        if [[ -z "$session_file" ]]; then
-            echo -e "${RED}✗ Could not find session file${NC}"
-            log "ERROR" "Could not find session file for $test_id"
-            return 1
-        fi
+        # Extract ALL token data - store full objects for later analysis
+        local timestamp=$(date -Iseconds)
+        local result_json=$(echo "$json_output" | jq \
+            --arg ts "$timestamp" \
+            --arg fmt "$format" \
+            --arg mdl "$model" \
+            --arg ds "$dataset" \
+            --arg dur "$duration" \
+            '{
+                timestamp: $ts,
+                format: $fmt,
+                model: $mdl,
+                dataset: $ds,
+                duration_seconds: ($dur | tonumber),
+                duration_ms: .duration_ms,
+                duration_api_ms: .duration_api_ms,
+                num_turns: .num_turns,
+                total_cost_usd: .total_cost_usd,
+                usage: .usage,
+                model_usage: .modelUsage
+            }')
 
-        # Copy session file to our sessions directory
-        cp "$session_file" "$session_dir/session.jsonl"
-        local local_session_file="$session_dir/session.jsonl"
+        # Extract summary values for display
+        local input_tokens=$(echo "$json_output" | jq -r '.usage.input_tokens // 0')
+        local output_tokens=$(echo "$json_output" | jq -r '.usage.output_tokens // 0')
+        local cache_creation=$(echo "$json_output" | jq -r '.usage.cache_creation_input_tokens // 0')
 
-        # Extract tokens using Python script
-        local token_data
-        if token_data=$(python3 "$TOOLS_DIR/extract-tokens.py" "$local_session_file" 2>&1); then
-            # Parse token data
-            local input_tokens=$(echo "$token_data" | jq -r '.input_tokens')
-            local output_tokens=$(echo "$token_data" | jq -r '.output_tokens')
-            local cache_read=$(echo "$token_data" | jq -r '.cache_read_tokens // 0')
-            local cache_creation=$(echo "$token_data" | jq -r '.cache_creation_tokens // 0')
+        # Append to results file
+        echo "$result_json" >> "$RESULTS_FILE"
 
-            # Build result JSON
-            local timestamp=$(date -Iseconds)
-            local result_json=$(jq -n \
-                --arg ts "$timestamp" \
-                --arg fmt "$format" \
-                --arg mdl "$model" \
-                --arg ds "$dataset" \
-                --arg it "$input_tokens" \
-                --arg ot "$output_tokens" \
-                --arg cr "$cache_read" \
-                --arg cc "$cache_creation" \
-                --arg sf "$local_session_file" \
-                --arg dur "$duration" \
-                '{
-                    timestamp: $ts,
-                    format: $fmt,
-                    model: $mdl,
-                    dataset: $ds,
-                    input_tokens: ($it | tonumber),
-                    output_tokens: ($ot | tonumber),
-                    cache_read_tokens: ($cr | tonumber),
-                    cache_creation_tokens: ($cc | tonumber),
-                    session_file: $sf,
-                    duration_seconds: ($dur | tonumber)
-                }')
-
-            # Append to results file
-            echo "$result_json" >> "$RESULTS_FILE"
-
-            echo -e "${GREEN}✓ Complete (${duration}s) - Input: $input_tokens, Output: $output_tokens${NC}"
-            log "INFO" "Test $test_id completed successfully in ${duration}s"
-            return 0
-        else
-            echo -e "${RED}✗ Failed to extract tokens: $token_data${NC}"
-            log "ERROR" "Failed to extract tokens for $test_id: $token_data"
-            return 1
-        fi
+        echo -e "${GREEN}✓ Complete (${duration}s) - Input: $input_tokens, Output: $output_tokens, Cache: $cache_creation${NC}"
+        log "INFO" "Test $test_id completed successfully in ${duration}s"
+        return 0
     else
         echo -e "${RED}✗ Claude command failed${NC}"
         log "ERROR" "Claude command failed for $test_id"
-        cat "$session_dir/output.txt" | tee -a "$LOG_FILE"
+        echo "$json_output" | tee -a "$LOG_FILE"
         return 1
     fi
 }

@@ -27,9 +27,11 @@ def extract_tokens(session_file: Path) -> dict:
             try:
                 event = json.loads(line.strip())
 
-                # Look for message events with usage data
-                if event.get('type') == 'message':
-                    usage = event.get('usage', {})
+                # Look for assistant events with message.usage data
+                # Session format: {"type": "assistant", "message": {"usage": {...}}}
+                if event.get('type') == 'assistant':
+                    message = event.get('message', {})
+                    usage = message.get('usage', {})
 
                     # Accumulate token counts
                     input_tokens += usage.get('input_tokens', 0)

@@ -1,0 +1,82 @@
+[2026-01-11 18:31:29] [INFO] Benchmark run started
+[2026-01-11 18:31:29] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 18:31:30] [ERROR] Claude command failed for json_haiku_flat-10
+error: unknown option '--prompt'
+(Did you mean --print?)
+[2026-01-11 18:31:30] [INFO] Benchmark run completed: 0 successful, 1 failed
+[2026-01-11 18:31:57] [INFO] Benchmark run started
+[2026-01-11 18:31:57] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 18:32:19] [INFO] Test json_haiku_flat-10 completed successfully in 22s
+[2026-01-11 18:32:19] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:33:22] [INFO] Benchmark run started
+[2026-01-11 18:33:22] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 18:33:53] [INFO] Test json_haiku_flat-10 completed successfully in 31s
+[2026-01-11 18:33:53] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:34:01] [INFO] Benchmark run started
+[2026-01-11 18:34:01] [INFO] Starting test: stele-ascii_haiku_flat-10
+[2026-01-11 18:34:32] [INFO] Test stele-ascii_haiku_flat-10 completed successfully in 31s
+[2026-01-11 18:34:32] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:34:39] [INFO] Benchmark run started
+[2026-01-11 18:34:39] [INFO] Starting test: toon_haiku_flat-10
+[2026-01-11 18:34:48] [INFO] Test toon_haiku_flat-10 completed successfully in 9s
+[2026-01-11 18:34:48] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:37:55] [INFO] Benchmark run started
+[2026-01-11 18:37:55] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 18:38:45] [INFO] Test json_haiku_flat-10 completed successfully in 50s
+[2026-01-11 18:38:45] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:38:53] [INFO] Benchmark run started
+[2026-01-11 18:38:53] [INFO] Starting test: stele-ascii_haiku_flat-10
+[2026-01-11 18:39:02] [INFO] Test stele-ascii_haiku_flat-10 completed successfully in 9s
+[2026-01-11 18:39:02] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:39:02] [INFO] Benchmark run started
+[2026-01-11 18:39:02] [INFO] Starting test: toon_haiku_flat-10
+[2026-01-11 18:39:14] [INFO] Test toon_haiku_flat-10 completed successfully in 12s
+[2026-01-11 18:39:14] [INFO] Benchmark run completed: 1 successful, 0 failed
+[2026-01-11 18:42:31] [INFO] Benchmark run started
+[2026-01-11 18:42:31] [INFO] Starting test: json_haiku_flat-10
+[2026-01-11 18:43:13] [INFO] Test json_haiku_flat-10 completed successfully in 42s
+[2026-01-11 18:43:13] [INFO] Starting test: stele-ascii_haiku_flat-10
+[2026-01-11 18:43:22] [INFO] Test stele-ascii_haiku_flat-10 completed successfully in 9s
+[2026-01-11 18:43:22] [INFO] Starting test: stele-light_haiku_flat-10
+[2026-01-11 18:43:36] [INFO] Test stele-light_haiku_flat-10 completed successfully in 14s
+[2026-01-11 18:43:36] [INFO] Starting test: stele-full_haiku_flat-10
+[2026-01-11 18:43:52] [INFO] Test stele-full_haiku_flat-10 completed successfully in 16s
+[2026-01-11 18:43:52] [INFO] Starting test: toon_haiku_flat-10
+[2026-01-11 18:44:00] [INFO] Test toon_haiku_flat-10 completed successfully in 8s
+[2026-01-11 18:44:00] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 18:50:47] [INFO] Benchmark run started
+[2026-01-11 18:50:47] [INFO] Starting test: json_haiku_flat-100
+[2026-01-11 18:53:46] [INFO] Test json_haiku_flat-100 completed successfully in 179s
+[2026-01-11 18:53:46] [INFO] Starting test: stele-ascii_haiku_flat-100
+[2026-01-11 18:54:45] [INFO] Test stele-ascii_haiku_flat-100 completed successfully in 59s
+[2026-01-11 18:54:45] [INFO] Starting test: stele-light_haiku_flat-100
+[2026-01-11 18:55:30] [INFO] Test stele-light_haiku_flat-100 completed successfully in 45s
+[2026-01-11 18:55:30] [INFO] Starting test: stele-full_haiku_flat-100
+[2026-01-11 18:55:48] [INFO] Test stele-full_haiku_flat-100 completed successfully in 18s
+[2026-01-11 18:55:48] [INFO] Starting test: toon_haiku_flat-100
+[2026-01-11 18:56:06] [INFO] Test toon_haiku_flat-100 completed successfully in 18s
+[2026-01-11 18:56:06] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 19:00:14] [INFO] Benchmark run started
+[2026-01-11 19:00:14] [INFO] Starting test: json_opus_flat-50
+[2026-01-11 19:00:22] [INFO] Test json_opus_flat-50 completed successfully in 8s
+[2026-01-11 19:00:22] [INFO] Starting test: stele-ascii_opus_flat-50
+[2026-01-11 19:00:34] [INFO] Test stele-ascii_opus_flat-50 completed successfully in 12s
+[2026-01-11 19:00:34] [INFO] Starting test: stele-light_opus_flat-50
+[2026-01-11 19:00:45] [INFO] Test stele-light_opus_flat-50 completed successfully in 11s
+[2026-01-11 19:00:45] [INFO] Starting test: stele-full_opus_flat-50
+[2026-01-11 19:00:55] [INFO] Test stele-full_opus_flat-50 completed successfully in 10s
+[2026-01-11 19:00:55] [INFO] Starting test: toon_opus_flat-50
+[2026-01-11 19:01:04] [INFO] Test toon_opus_flat-50 completed successfully in 9s
+[2026-01-11 19:01:04] [INFO] Benchmark run completed: 5 successful, 0 failed
+[2026-01-11 19:02:51] [INFO] Benchmark run started
+[2026-01-11 19:02:51] [INFO] Starting test: json_haiku_nested-deep
+[2026-01-11 19:02:57] [INFO] Test json_haiku_nested-deep completed successfully in 6s
+[2026-01-11 19:02:57] [INFO] Starting test: stele-ascii_haiku_nested-deep
+[2026-01-11 19:03:06] [INFO] Test stele-ascii_haiku_nested-deep completed successfully in 9s
+[2026-01-11 19:03:06] [INFO] Starting test: stele-light_haiku_nested-deep
+[2026-01-11 19:03:13] [INFO] Test stele-light_haiku_nested-deep completed successfully in 7s
+[2026-01-11 19:03:13] [INFO] Starting test: stele-full_haiku_nested-deep
+[2026-01-11 19:03:28] [INFO] Test stele-full_haiku_nested-deep completed successfully in 15s
+[2026-01-11 19:03:28] [INFO] Starting test: toon_haiku_nested-deep
+[2026-01-11 19:03:39] [INFO] Test toon_haiku_nested-deep completed successfully in 11s
+[2026-01-11 19:03:39] [INFO] Benchmark run completed: 5 successful, 0 failed
